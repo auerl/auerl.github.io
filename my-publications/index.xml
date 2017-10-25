@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My-publications on </title>
-    <link>https://example.org/my-publications/</link>
+    <link>https://auerl.github.io/my-publications/</link>
     <description>Recent content in My-publications on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
     
-	<atom:link href="https://example.org/my-publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://auerl.github.io/my-publications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My publications</title>
-      <link>https://example.org/my-publications/</link>
+      <link>https://auerl.github.io/my-publications/</link>
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
-      <guid>https://example.org/my-publications/</guid>
+      <guid>https://auerl.github.io/my-publications/</guid>
       <description>In preparation Auer, L., Boschi, L., van Driel, M., Becker, T., Nissen-Meyer, T., Sigloch, K., Staehler, S. Hosseini-zad K., and D. Giardini.: Waveform based images of velocity variations underneath Europe, embedded in a global model: A hybrid approach. In preparation
 Stähler, S. C., van Driel, M., Auer, L., Hosseini, K., Sigloch, K. and Nissen-Meyer, T.: MCkernel: Global broadband seismic sensitivity kernels calculated from a wavefield database. In preparation
 Journal publications Auer, L.</description>
