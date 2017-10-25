@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My-contacts on </title>
+    <link>https://example.org/my-contact/</link>
+    <description>Recent content in My-contacts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 20:08:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.org/my-contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://example.org/my-contact/</link>
+      <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
+      
+      <guid>https://example.org/my-contact/</guid>
+      <description>Please feel free to contact me via email or find me at my office at
+Room H39.3 Focus Terra Sonneggstr. 5 8092 Zürich</description>
+    </item>
+    
+  </channel>
+</rss>
