@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ECS on https://auerl.github.io</title>
+    <link>/tags/ecs/</link>
+    <description>Recent content in ECS on https://auerl.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 28 Dec 2018 11:27:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/ecs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data analysis pipeline</title>
+      <link>/project/data-pipelines/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/data-pipelines/</guid>
+      <description>This repository contains a set of infrastructure tools to deploy, operate and develop the so called TRACKTICS Pipeline. The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis to for logging.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radial anisotropy on https://auerl.github.io</title>
+    <link>/tags/radial-anisotropy/</link>
+    <description>Recent content in radial anisotropy on https://auerl.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/radial-anisotropy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thermal structure, radial anisotropy, and dynamics of oceanic boundary layers</title>
+      <link>/publication/doi-10-1002-2015-gl-066246/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/doi-10-1002-2015-gl-066246/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

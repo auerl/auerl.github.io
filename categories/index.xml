@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
-    <link>https://auerl.github.io/categories/</link>
-    <description>Recent content in Categories on </description>
+    <title>Categories on https://auerl.github.io</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on https://auerl.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Released under the MIT license</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     
-	<atom:link href="https://auerl.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

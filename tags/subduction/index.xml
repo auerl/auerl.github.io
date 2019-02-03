@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>subduction on https://auerl.github.io</title>
+    <link>/tags/subduction/</link>
+    <description>Recent content in subduction on https://auerl.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/subduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mantle dynamics in the Mediterranean</title>
+      <link>/publication/doi-10-1002-2013-rg-000444/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/doi-10-1002-2013-rg-000444/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

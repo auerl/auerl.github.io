@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on https://auerl.github.io</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on https://auerl.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thermal structure, radial anisotropy, and dynamics of oceanic boundary layers</title>
+      <link>/publication/doi-10-1002-2015-gl-066246/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/doi-10-1002-2015-gl-066246/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AxiSEM: broadband 3-D seismic wavefields in axisymmetric media</title>
+      <link>/publication/doi-10-5194-se-5-425-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/doi-10-5194-se-5-425-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mantle dynamics in the Mediterranean</title>
+      <link>/publication/doi-10-1002-2013-rg-000444/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/doi-10-1002-2013-rg-000444/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Savani: A variable resolution whole-mantle model of anisotropic shear velocity variations based on multiple data sets</title>
+      <link>/publication/doi-10-1002-2013-jb-010773/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/doi-10-1002-2013-jb-010773/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A critical appraisal of asymptotic 3D-to-2D data transformation in full-waveform seismic crosshole tomography</title>
+      <link>/publication/doi-10-1190-geo-2012-0382-1/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/doi-10-1190-geo-2012-0382-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

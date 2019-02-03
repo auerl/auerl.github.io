@@ -1,460 +1,1554 @@
+
 <!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Ludwig Auer">
+
   
   
   
   
-   <html class="no-js"> 
-
-  <head lang="en-us">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title></title>
-    <meta name="generator" content="Hugo 0.30.2" />
-
     
-    <meta name="description" content="My personal website">
-    
-    <link rel="canonical" href="https://auerl.github.io/">
-    
-    <meta name="author" content="Ludwig Auer">
-    
+  
+  <meta name="description" content="R&amp;D Engineer">
 
-    <meta property="og:url" content="https://auerl.github.io/">
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#EF525B">
+  
+
+  
+  
+  
+  
     
-    <meta property="og:image" content="https://auerl.github.io/images/grey.jpg">
-    
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <link rel="shortcut icon" type="image/x-icon" href="https://auerl.github.io/images/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="https://auerl.github.io/images/favicon.ico">
-
-    <style>
-      @font-face {
-        font-family: 'Icon';
-        src: url('https://auerl.github.io/fonts/icon.eot');
-        src: url('https://auerl.github.io/fonts/icon.eot')
-               format('embedded-opentype'),
-             url('https://auerl.github.io/fonts/icon.woff')
-               format('woff'),
-             url('https://auerl.github.io/fonts/icon.ttf')
-               format('truetype'),
-             url('https://auerl.github.io/fonts/icon.svg')
-               format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
-    </style>
-
-    <link rel="stylesheet" href="https://auerl.github.io/stylesheets/application.css">
-    <link rel="stylesheet" href="https://auerl.github.io/stylesheets/temporary.css">
-    <link rel="stylesheet" href="https://auerl.github.io/stylesheets/palettes.css">
-    <link rel="stylesheet" href="https://auerl.github.io/stylesheets/highlight/highlight.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
     
     
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
-    <style>
-      body, input {
-        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-      }
-      pre, code {
-        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
-      }
-    </style>
-
+      
     
-    <script src="https://auerl.github.io/javascripts/modernizr.js"></script>
-
     
-    <link href="https://auerl.github.io/index.xml" rel="alternate" type="application/rss+xml" title="" />
-    <link href="https://auerl.github.io/index.xml" rel="feed" type="application/rss+xml" title="" />
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
     
 
-  </head>
-  <body class="palette-primary-grey palette-accent-green">
+    
 
+    
 
+  
 
-	
-	
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
 
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/custom.css">
+  
 
-<div class="backdrop">
-	<div class="backdrop-paper"></div>
-</div>
+  
+  
+  
 
-<input class="toggle" type="checkbox" id="toggle-drawer">
-<input class="toggle" type="checkbox" id="toggle-search">
-<label class="toggle-button overlay" for="toggle-drawer"></label>
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="https://auerl.github.io">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="https://auerl.github.io">
+  
 
-<header class="header">
-	<nav aria-label="Header">
-  <div class="bar default">
-    <div class="button button-menu" role="button" aria-label="Menu">
-      <label class="toggle-button icon icon-menu" for="toggle-drawer">
-        <span></span>
-      </label>
-    </div>
-    <div class="stretch">
-      <div class="title">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="https://auerl.github.io">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="https://auerl.github.io">
+  <meta property="og:description" content="R&amp;D Engineer"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2016-04-20T00:00:00&#43;02:00">
+  
+
+  
+
+  
+
+  <title>https://auerl.github.io</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
-    </div>
 
-    
+    </section>
+    <section class="section-search-results">
 
-    
-    <div class="button button-github" role="button" aria-label="GitHub">
-      <a href="https://github.com/auerl" title="@auerl on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
-    </div>
-    
-    
+      <div id="search-hits">
         
+      </div>
+
+    </section>
   </div>
-  <div class="bar search">
-    <div class="button button-close" role="button" aria-label="Close">
-      <label class="toggle-button icon icon-back" for="toggle-search"></label>
-    </div>
-    <div class="stretch">
-      <div class="field">
-        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
-      </div>
-    </div>
-    <div class="button button-reset" role="button" aria-label="Search">
-      <button class="toggle-button icon icon-close" id="reset-search"></button>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">https://auerl.github.io</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts" data-target="#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications" data-target="#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/files/resume.pdf" data-target="files/resume.pdf">
+            
+            <span>Resume</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
     </div>
   </div>
 </nav>
-</header>
 
-<main class="main">
-	<div class="drawer">
-		<nav aria-label="Navigation">
-  <a href="https://github.com/auerl" class="project">
-    <div class="banner">
+
+
+<span id="homepage" style="display: none"></span>
+
+
+  
+
+
+
+
+
+  
+  
+  
+  <section id="about" class="home-section">
+    <div class="container">
       
-        <div class="logo">
-          <img src="https://auerl.github.io/images/grey.jpg">
-        </div>
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
       
-      <div class="name">
-        <strong> </strong>
+      <img class="portrait" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Ludwig Auer</h2>
+        <h3 itemprop="jobTitle">R&amp;D Engineer</h3>
+
         
-          <br>
-          auerl
+        
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          
+          <span itemprop="name">TRACKTICS</span>
+          
+        </h3>
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          
+          <span itemprop="name">ETH Zurich</span>
+          
+        </h3>
         
       </div>
+
+      <link itemprop="url" href="/">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="/#contact" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="https://github.com/auerl" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
     </div>
-  </a>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
 
-  <div class="scrollable">
-    <div class="wrapper">
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <hr>
-      
+    
 
-      <div class="toc">
-        
-        <ul>
+<h1 id="biography">Biography</h1>
+
+<p>My name is Ludwig and I currently hold the role  Lead Data Engineer at
+the football wearables startup TRACKTICS. I have graduated with a PhD in
+Computational Seismology from the Institue of Geophysics at ETH Zurich in 2016.</p>
+
+<p>During my PhD I have worked on tomographic imaging of the Deep Earth’s interior
+using very large seismologcial data sets, waveform inversion and
+simulation of seismic wave propagation on HPC systems.</p>
+
+<p>At my current job I work on sensor fusion using
+graphical models, machine learning, GNSS navigation, data mining, back-end
+engineering and test automation.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
           
-
-
-
-
-<li>
-  
-    
-
-
-
-<a  title="Software" href="https://auerl.github.io/my-software/">
-	
-	Software
-</a>
-
-
-
-  
-</li>
-
-
-
-<li>
-  
-    
-
-
-
-<a  title="Publications" href="https://auerl.github.io/my-publications/">
-	
-	Publications
-</a>
-
-
-
-  
-</li>
-
-
-
-<li>
-  
-    
-
-
-
-<a  title="Contact" href="https://auerl.github.io/my-contact/">
-	
-	Contact
-</a>
-
-
-
-  
-</li>
-
-
-
-<li>
-  
-    
-
-
-
-<a class="current" title="Science" href="https://auerl.github.io/">
-	
-	Science
-</a>
-
-
-<ul id="scrollspy">
-</ul>
-
-
-  
-</li>
-
-
+          <li>Software Engineering</li>
+          
+          <li>Deep Earth Seismology</li>
+          
+          <li>Reinforcement Learning</li>
+          
+          <li>Optimization Methods</li>
+          
+          <li>Sensor Fusion / SLAM</li>
+          
+          <li>Football Analytics</li>
+          
+          <li>GNSS Navigation</li>
+          
+          <li>AI in Games</li>
+          
+          <li>Drums</li>
+          
         </ul>
-        
+      </div>
+      
 
-        
-        <hr>
-        <span class="section">The author</span>
-        
-        <ul>
-          
-
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
           
           <li>
-            <a href="https://github.com/auerl" target="_blank" title="@auerl on GitHub">
-              @auerl on GitHub
-            </a>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Computational Seismology, 2016</p>
+              <p class="institution">ETH Zurich</p>
+            </div>
           </li>
           
-
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MSc in Geophysics, 2011</p>
+              <p class="institution">ETH Zurich</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Geophysics, 2009</p>
+              <p class="institution">LMU Munich</p>
+            </div>
+          </li>
           
         </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="posts" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Blog Posts</h1>
+    
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+
+      
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+
+    <h1>Projects</h1>
+    
+
+  </div>
+  <div class="col-xs-12 col-md-8">
+
+
+
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry ">
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Football js-id-3D js-id-Visualization js-id-Unity js-id-TRACKTICS">
+  <div class="card">
+    
+    
+    <a href="/project/25d-wfi/"  class="card-image hover-overlay">
+      <img src="/project/25d-wfi/featured_hu0e6ffb1a491683cdcd9ffb884c765f48_467927_550x0_resize_q90_box_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/25d-wfi/" >2.5D Waveform Inversion</a></h4>
+      <div class="card-desription">
         
       </div>
     </div>
   </div>
-</nav>
+</div>
 
-	</div>
-
-	<article class="article">
-		<div class="wrapper">
-			
-				<h1>Welcome to my personal site </h1>
-
-				
-
-<p>My name is Ludwig and I am former PhD student in Computational Seismology at the Institue of Geophysics at ETH Zurich. In the previous years I have been working on various topics related to tomographic imaging, non-linear and probabilistic optimization, statistical inference, signal processing, machine learning, numerical simulation of wave propagation, high-performance computing with the aim to unlock some secrets related to the long term evolution of the deep Earth&rsquo;s interior, using very large seismological datasets.</p>
-
-<h2 id="mantle-anisotropy">Mantle anisotropy</h2>
-
-<p><img style="float: right;" src="https://auerl.github.io/images/savani.png" width="400"></p>
-
-<p>Recently, me and colleagues at UPMC Paris <a href="http://hestia.upmc.fr/~boschil/">(Lapo Boschi)</a>, USC Los Angeles <a href="https://earth.usc.edu/~becker/">(Thorsten Becker)</a> and University of Oxford <a href="http://seis.earth.ox.ac.uk/people/tarje.html">(Tarje Nissen-Meyer)</a>, have developed a new global model of anisotropic shear-velocity variations, called <b><i>savani</i></b>, which represents one of the first attempts to map anisotropic wavespeeds at the scale of the entire mantle.  While being well correlated with earlier models at long spatial wavelength, our preferred solution, savani, additionally delineates a number of previously unidentified structures, due to its improved resolution in areas of dense coverage.</p>
-
-<!--<center>![Material Screenshot](/images/savani.png =250x250)</center>-->
-
-<p>This is because the density of the inverse grid ranges between 1.25 ◦ in well sampled to 5 ◦ in poorly sampled regions, allowing us to resolve regional structure better than it is typically the case in global S-wave tomography. Important features of our model include: (i) A distinct ocean-continent anisotropic signature in the uppermost mantle; (ii) an oceanic peak in above average ξ &gt; 1 which is shallower than in previous models and thus in better agreement with estimates of lithosphere thickness.</p>
-
-<p>See a publication about <i><b>savani</b></i> at <a href="doi:10.1002/2013JB010773">doi:10.1002/2013JB010773</a> and feel free to download our model and documentation via</p>
-
-<pre><code class="language-sh">wget http://n.ethz.ch/~auerl/savani.tar.bz2
-</code></pre>
-
-<h2 id="mantle-composition">Mantle composition</h2>
-
-<p>Using my tomography solver PETScinv and an extended seismic database researchers at <a ref="http://ign.ku.dk/english/employees/geology/?pure=en/persons/407372">University of Copenhagen</a> have derived an update of <b><i>savani</i></b> called <b><i>SPani</i></b>. See <a href="doi:10.1002/2015JB012026">doi:10.1002/2015JB012026</a> for more information and download our model from github via:</p>
-
-<pre><code class="language-sh">git clone https://github.com/atesoniero/SPani.git
-</code></pre>
-
-<h2 id="broadband-tomography">Broadband tomography</h2>
-
-<p>In my thesis I have presented the theoretical and methological foundations of a new global waveform tomography approach, with the rationale to keep approximate (ray) theory where appropriate (global long-wavelength structure, surface wave dispersion), but to revert to a full-waveform interpretation where necessary (regional scale, non-geometrical wave phenomena). Finite-frequency kernels are being calculated via the spectral element solver AxiSEM (Nissen-Meyer et al. 2014) and a new code called MCkernel (co-developed with Simon Stähler and Martin van Driel). Overall, our method will provide straightforward framework to stepwise improve upon a global background model by re-inverting an updated linear system whenever new (types of) data become available.</p>
-
-<p><center><img src="https://auerl.github.io/images/kernels.png" width="650"></center></p>
-
-<p>We describe our new approach to project waveform-based finite-frequency kernels onto our voxel-based inversion mesh and apply these kernels as forward models to demonstrate their predictive capacity. Finally, we present a preliminary version of a new model for Europe SPani+, building on the work about adaptive meshing and the complete P -wave and S-wave database employed in Chapter 4. To improve resolution underneath Europe we have extended our global dataset with new regional multi-frequency cross-correlation traveltimes at distances between 15 and 60 ◦.</p>
-
-<h2 id="oceanic-upper-mantle">Oceanic upper mantle</h2>
-
-<p>Defining the oceanic lithosphere as a thermal boundary layer allows to explain, to
-first order, age-dependent bathymetry and isotropic wavespeeds. In contrast, SS precursors and receiver functions suggest a subhorizontal interface within this layer, on top of a radially anisotropic zone. Comparing a suite of geodynamic scenarios against surface-wave dispersion data and seismic discontinuties we find that only weak age dependency of the radially anisotropic zone is compatible with observations. We show that this zone is confined from below by a second, weaker seismic interface.</p>
-
-<p><img style="float:left;" src="https://auerl.github.io/images/concept.png" width="500"></p>
-
-<p>While azimuthal anisotropy is consistent with LPO of olivine due to asthenospheric flow underneath the lithosphere, radial anisotropy requires additional contributions, perhaps from petrological fabrics or melt ponding. This implies that seismic reflectors previously associated with the base of the lithosphere are instead associated with preserved structures embedded in it. They carry information about plate formation, but have little control on plate deformation. See <a href="doi:10.1002/2015GL066246">doi:10.1002/2015GL066246</a>.</p>
-
-<h2 id="3d-to-2d-conversion">3D-to-2D conversion</h2>
-
-<p>Seismic full waveform inversion is often based on forward modelling in the computationally attractive 2-D domain. Any solution of the 2-D cartesian wave equation inherently carries the assumption of being generated by a line source, extended in the out-of-plane direction, implying that source energy spreads over the surface of a cylinder, and that amplitudes scale with one over square-root of distance. However, realistic point sources like explosives or airguns, fired in a 3-D medium, generate amplitudes that decay with one over distance, since the wavefield expands spherically in all three dimensions.</p>
-
-<p><img style="float: left;" src="https://auerl.github.io/images/3d2d_a.png" width="600"></p>
-
-<p>Usually, geophysicists correct for this amplitude difference and the associated phase shift of π/4 by transforming recorded field data to approximate 2-D, using simplistic asymptotic filter algorithms, operating on a time-sample basis and assuming straight ray paths and a constant velocity medium. The sometimes careless usage of these filters, is in contradiction to their well known limitations. I could show that filtering errors are moderate in purely acoustic situations but become substantial in complex media when arrivals overlap each other or ray paths deviate strongly from straight lines. Normalized root-mean-square deviations up to 5 % and maximum relative time domain errors up to 40 % were found in high contrast media, when full elastic treatment is considered. See <a href="doi: 10.1190/geo2012-0382.1">doi: 10.1190/geo2012-0382.1</a></p>
-
-<h2 id="2-5-d-fem-modelling">2.5-D FEM modelling</h2>
-
-<p>As part of my Masters thesis I investiagted potential of 2.5-D frequency-domain finite-element modelling of seismic wave propagation, which is based on Fourier transforming the 3-D wave equation along the invariant axis to frequency-wavenumber domain and solving the resulting equation for many wavenumber components,</p>
-
-<p><img style="float: right;" src="https://auerl.github.io/images/25D_a.png" width="480"></p>
-
-<p>thus breaking down the 3-D problem to a large number of 2-D problems. An attempt is made to circumvent problems associated with singularities in the wavenumber spectrum by combining a finite-element 2.5-D forward solver and a complex-frequency extension. By shifting the poles off the real axis, they are avoided in the inverse Fourier transform to the frequency domain. I could show that problems associated with the singularities are mitigated and the total number of required wavenumber samples is significantly reduced, as soon as frequencies are allowed to be complex. Reconstructed finite-element 2.5-D seismograms compare very well to reference finite-difference 3-D seismograms. 2.5-D modelling with complex frequencies outperforms asymptotic 3D-to-2D transformation showing very low misfits between 2.5-D and 3-D synthetics.</p>
-
-<p><br></p>
-
-			
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
-
-			<footer class="footer">
-				
+        
+      
+        
+        
+        
+        
+          
 
 
 
-<nav class="pagination" aria-label="Footer">
-  <div class="previous">
+
+
+
+
+
+<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Football js-id-3D js-id-Visualization js-id-Unity js-id-TRACKTICS">
+  <div class="card">
+    
+    
+    <a href="/project/football-animation/"  class="card-image hover-overlay">
+      <img src="/project/football-animation/featured_hu2aa6b64fe3a1c3b3031ad9c3aab181ea_358098_550x0_resize_q90_box_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/football-animation/" >Animating data with Unity</a></h4>
+      <div class="card-desription">
+        
+      </div>
+    </div>
   </div>
+</div>
+
+        
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Batch js-id-Processing js-id-Luigi js-id-AWS js-id-ECS js-id-Docker js-id-S3">
+  <div class="card">
+    
+    
+    <a href="/project/data-pipelines/"  class="card-image hover-overlay">
+      <img src="/project/data-pipelines/featured_hu62bbdb0834d23ec3e49ffc2b33ee0875_623256_550x0_resize_q90_box_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/data-pipelines/" >Data analysis pipeline</a></h4>
+      <div class="card-desription">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Savani js-id-Waveform js-id-Tomography js-id-PETScinv js-id-JGR">
+  <div class="card">
+    
+    
+    <a href="/project/global-anisotropy/"  class="card-image hover-overlay">
+      <img src="/project/global-anisotropy/featured_hucfc9e06c2ef4f13cbe86767911d3f084_588431_550x0_resize_q90_box_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/global-anisotropy/" >Global seismic anisotropy</a></h4>
+      <div class="card-desription">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+        
+        
+        
+        
+          
+
+
+
+
+
+
+
+
+<div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-Football js-id-3D js-id-Visualization js-id-Unity js-id-TRACKTICS">
+  <div class="card">
+    
+    
+    <a href="/project/cloudquake/"  class="card-image hover-overlay">
+      <img src="/project/cloudquake/featured_hub3d8ffac537a980eb6ce57cdb0a2c3a4_393763_550x0_resize_q90_box_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/cloudquake/" >Twitter quake detection</a></h4>
+      <div class="card-desription">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
 
   
   
-  <div class="next">
-      <a href="https://auerl.github.io/tags/" title="Tags">
-        <span class="direction">
-          Next
-        </span>
-        <div class="page">
-          <div class="stretch">
-            <div class="title">
-              Tags
+  
+  <section id="skills" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Skills</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-code-branch"></i></div>
+    <h3>Software Engineering</h3>
+    <p>Data analysis pipelines, cloud computing, container-based  architectures, CI/CD pipelines, RESTful APIs, Test automation</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-atom"></i></div>
+    <h3>Scientific Computing</h3>
+    <p>Information Fusion, Optimization Problems, Tomographic Imaging, Graphical Models, Machine Learning, Data Exploration, Visualization</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+    <h3>Teaching and Leadership</h3>
+    <p>Product Management, Supervision of trainees and Master students, Lectures and presentations at International Conferences</p>
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="experience" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                March 2016 –
+                
+                  Present
+                
+                
+              </div>
+              <div class="text-right">Switzerland</div>
+              
             </div>
-          </div>
-          <div class="button button-next" role="button" aria-label="Next">
-            <i class="icon icon-forward"></i>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">R&amp;D Software Engineer</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.tracktics.com" target="_blank" rel="noopener">TRACKTICS GmbH</a></h4>
+            <div class="card-text">Responsibilities include:</p>
+
+<ul>
+<li>Leading all Data Engineering Activities at TRACKTICS</li>
+<li>Development of a scalable, high-availability data analysis pipeline</li>
+<li>Development of TRACKTIS core GNSS/IMU sensor fusion algorithm</li>
+<li>Co-product ownership for TRACKTICS Web App (Test automation)</li>
+<li>Data Exploration, Visualization and pre-feature development</li>
+<li>Contributing to TRACKTICS main REST API
+<br />
+<br /></li>
+</ul>
+</div>
           </div>
         </div>
-      </a>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                November 2011 –
+                
+                  March 2016
+                
+                
+              </div>
+              <div class="text-right">Switzerland</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Assistant &amp; PhD Student</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.erdw.ethz.ch/en/research/institutes/geophysics/seismology-geodynamics.html" target="_blank" rel="noopener">ETH Zurich - DERDW</a></h4>
+            <div class="card-text">Projects:</p>
+
+<ul>
+<li>PhD in Computational Seismology with specialization on global
+waveform tomography and simulation of seismic wave propagation</li>
+<li>Developed PETScinv, a solver for tomographic inverse problems</li>
+<li>Contributor to MCKernel open source project
+<br /></li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
   </div>
-</nav>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications" class="home-section">
+    <div class="container">
+      
 
 
 
-			</footer>
-		</div>
-	</article>
 
-	<div class="results" role="status" aria-live="polite">
-		<div class="scrollable">
-			<div class="wrapper">
-				<div class="meta"></div>
-				<div class="list"></div>
-			</div>
-		</div>
-	</div>
-</main>
-
-    <script>
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Selected Publications (Geophysics)</h1>
     
-      var base_url = 'https:\/\/auerl.github.io\/';
-      var repo_id  = 'auerl';
     
-    </script>
-
-    <script src="https://auerl.github.io/javascripts/application.js"></script>
+  </div>
+  <div class="col-12 col-lg-8">
     
 
-    <script>
-      /* Add headers to scrollspy */
-      var headers   = document.getElementsByTagName("h2");
-      var scrollspy = document.getElementById('scrollspy');
-
-      if(scrollspy) {
-        if(headers.length > 0) {
-          for(var i = 0; i < headers.length; i++) {
-            var li = document.createElement("li");
-            li.setAttribute("class", "anchor");
-
-            var a  = document.createElement("a");
-            a.setAttribute("href", "#" + headers[i].id);
-            a.setAttribute("title", headers[i].innerHTML);
-            a.innerHTML = headers[i].innerHTML;
-
-            li.appendChild(a)
-            scrollspy.appendChild(li);
-          }
-        } else {
-          scrollspy.parentElement.removeChild(scrollspy)
-        }
-
-
-        /* Add permanent link next to the headers */
-        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-
-        for(var i = 0; i < headers.length; i++) {
-            var a = document.createElement("a");
-            a.setAttribute("class", "headerlink");
-            a.setAttribute("href", "#" + headers[i].id);
-            a.setAttribute("title", "Permanent link")
-            a.innerHTML = "¶";
-            headers[i].appendChild(a);
-        }
-      }
-    </script>
+    
+      
+    
 
     
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/doi-10-1002-2015-gl-066246/" itemprop="url">Thermal structure, radial anisotropy, and dynamics of oceanic boundary layers</a>
+    </h3>
+
+    
+    
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Ludwig Auer, Thorsten W. Becker, Lapo Boschi, Nicholas Schmerr</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL066246" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/doi-10-1002-2015-gl-066246/doi-10-1002-2015-gl-066246.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1002/2015GL066246" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/doi-10-5194-se-5-425-2014/" itemprop="url">AxiSEM: broadband 3-D seismic wavefields in axisymmetric media</a>
+    </h3>
+
+    
+    
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        T. Nissen-Meyer, M. van Driel, S. C. Stähler, K. Hosseini, S. Hempel, L. Auer, A. Colombi, A. Fournier</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.solid-earth.net/5/425/2014/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/doi-10-5194-se-5-425-2014/doi-10-5194-se-5-425-2014.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.5194/se-5-425-2014" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/doi-10-1002-2013-rg-000444/" itemprop="url">Mantle dynamics in the Mediterranean</a>
+    </h3>
+
+    
+    
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        C. Faccenna, T. W. Becker, L. Auer, A. Billi, L. Boschi, J. P. Brun, F. A. Capitanio, F. Funiciello, F. Horvàth, L. Jolivet, C. Piromallo, L. Royden, F. Rossetti, E. Serpelloni</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2013RG000444" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/doi-10-1002-2013-rg-000444/doi-10-1002-2013-rg-000444.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1002/2013RG000444" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/doi-10-1002-2013-jb-010773/" itemprop="url">Savani: A variable resolution whole-mantle model of anisotropic shear velocity variations based on multiple data sets</a>
+    </h3>
+
+    
+    
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        L. Auer, L. Boschi, T. W. Becker, T. Nissen-Meyer, D. Giardini</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2013JB010773" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/doi-10-1002-2013-jb-010773/doi-10-1002-2013-jb-010773.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1002/2013JB010773" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/doi-10-1190-geo-2012-0382-1/" itemprop="url">A critical appraisal of asymptotic 3D-to-2D data transformation in full-waveform seismic crosshole tomography</a>
+    </h3>
+
+    
+    
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        L. Auer, S. Greenhalgh, H. Maurer, S. Marelli, A. Nuber</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/doi-10-1190-geo-2012-0382-1/doi-10-1190-geo-2012-0382-1.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1190/geo2012-0382.1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="contact" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/ludwig.auer@gmail.com">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone" itemprop="telephone"><a href="tel:&#43;41%2078%20911%2043%2015">&#43;41 78 911 43 15</a></span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fab fa-skype fa-2x" aria-hidden="true"></i>
+        <span><a href="skype:ludwig.auer?call">ludwig.auer</a></span>
+      </li>
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">Zürich, Switzerland</span>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
     <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
   </body>
 </html>
+
 

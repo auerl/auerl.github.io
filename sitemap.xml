@@ -1,103 +1,422 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://auerl.github.io/getting-started/</loc>
-    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/project/25d-wfi/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/adding-content/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/project/football-animation/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/roadmap/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/project/data-pipelines/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/license/</loc>
-    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/project/global-anisotropy/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/my-contact/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/project/cloudquake/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/my-publications/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/my-software/</loc>
-    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/</loc>
-    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/</loc>
-    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/doi-10-1002-2015-gl-066246/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/adding-content/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/doi-10-5194-se-5-425-2014/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/doi-10-1002-2013-rg-000444/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/getting-started/</loc>
-    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/doi-10-1002-2013-jb-010773/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/license/</loc>
-    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/doi-10-1190-geo-2012-0382-1/</loc>
+      <lastmod>2013-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/my-contact/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/my-publications/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/tags/3d/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/my-software/</loc>
-    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/tags/aws/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/roadmap/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/tags/batch/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://auerl.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/docker/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/ecs/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/football/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/gutenberg-discontinuity/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/jgr/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/lithosphere-asthenosphere-boundary-lab/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/luigi/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/petscinv/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/processing/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/s3/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/ss-precursors/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/savani/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/tracktics/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/tomography/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/unity/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/visualization/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/waveform/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/anisotropy/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/continental-deformation/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2016-04-20T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/mantle/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/mantle-convection/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/mediterranean/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/radial-anisotropy/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/subduction/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/surface-waves/</loc>
+      <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/tomography/</loc>
+      <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

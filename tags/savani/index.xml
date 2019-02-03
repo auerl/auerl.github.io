@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Savani on https://auerl.github.io</title>
+    <link>/tags/savani/</link>
+    <description>Recent content in Savani on https://auerl.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 28 Dec 2018 11:27:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/savani/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Global seismic anisotropy</title>
+      <link>/project/global-anisotropy/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/global-anisotropy/</guid>
+      <description>Global anisotropy Recently, me and colleagues at UPMC Paris (Lapo Boschi), USC Los Angeles (Thorsten Becker) and University of Oxford (Tarje Nissen-Meyer), have developed a new global model of anisotropic shear-velocity variations, called savani, which represents one of the first attempts to map anisotropic wavespeeds at the scale of the entire mantle. While being well correlated with earlier models at long spatial wavelength, our preferred solution, savani, additionally delineates a number of previously unidentified structures, due to its improved resolution in areas of dense coverage.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,15 +1,277 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
-    <link>https://auerl.github.io/tags/</link>
-    <description>Recent content in Tags on </description>
+    <title>Tags on https://auerl.github.io</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on https://auerl.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Released under the MIT license</copyright>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 28 Dec 2018 11:27:00 +0100</lastBuildDate>
     
-	<atom:link href="https://auerl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3D</title>
+      <link>/tags/3d/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>/tags/aws/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Batch</title>
+      <link>/tags/batch/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/batch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ECS</title>
+      <link>/tags/ecs/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/ecs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Football</title>
+      <link>/tags/football/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/football/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gutenberg discontinuity</title>
+      <link>/tags/gutenberg-discontinuity/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/gutenberg-discontinuity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JGR</title>
+      <link>/tags/jgr/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/jgr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lithosphere Asthenosphere Boundary (LAB)</title>
+      <link>/tags/lithosphere-asthenosphere-boundary-lab/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/lithosphere-asthenosphere-boundary-lab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luigi</title>
+      <link>/tags/luigi/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/luigi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PETScinv</title>
+      <link>/tags/petscinv/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/petscinv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processing</title>
+      <link>/tags/processing/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S3</title>
+      <link>/tags/s3/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SS precursors</title>
+      <link>/tags/ss-precursors/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/ss-precursors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Savani</title>
+      <link>/tags/savani/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/savani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TRACKTICS</title>
+      <link>/tags/tracktics/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/tracktics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tomography</title>
+      <link>/tags/tomography/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/tomography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>/tags/unity/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>/tags/visualization/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Waveform</title>
+      <link>/tags/waveform/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/tags/waveform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anisotropy</title>
+      <link>/tags/anisotropy/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/anisotropy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continental deformation</title>
+      <link>/tags/continental-deformation/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/continental-deformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mantle</title>
+      <link>/tags/mantle/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/mantle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mantle convection</title>
+      <link>/tags/mantle-convection/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/mantle-convection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mediterranean</title>
+      <link>/tags/mediterranean/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/mediterranean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>radial anisotropy</title>
+      <link>/tags/radial-anisotropy/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/radial-anisotropy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subduction</title>
+      <link>/tags/subduction/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/subduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surface waves</title>
+      <link>/tags/surface-waves/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/surface-waves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tomography</title>
+      <link>/tags/tomography/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/tomography/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
