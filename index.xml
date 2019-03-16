@@ -11,16 +11,253 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>2.5D Waveform Inversion</title>
-      <link>/project/25d-wfi/</link>
+      <title>Animating data with Unity</title>
+      <link>/project/football-animation/</link>
       <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
       
-      <guid>/project/25d-wfi/</guid>
+      <guid>/project/football-animation/</guid>
+      <description>&lt;p&gt;At TRACKTICS we are constantly trying to come up with new ways to visualize the
+data that our customers acquire with their Trackers. Recently, we have devised a
+prototype feature of visualizing Location and Attitude data in the form of
+three-dimensional animations using the Unity 3D engine. Here&amp;rsquo;s a small example:&lt;/p&gt;
+
+&lt;iframe
+src=&#34;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftracktics%2Fvideos%2F1073790999445342%2F&amp;show_text=0&amp;width=476&#34;
+width=&#34;476&#34; height=&#34;476&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34;
+frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The visualization has been featured in a Report by &lt;a href=&#34;https://reportage2.stuttgarter-zeitung.de/fussball-digitalisierung&#34; target=&#34;_blank&#34;&gt;Stuttgarter
+Zeitung&lt;/a&gt;
+and is possibly going to result Web App feature (using Unity&amp;rsquo;s WebGL bindings)&lt;br /&gt;
+for coaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data analysis pipeline</title>
+      <link>/project/data-pipelines/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/data-pipelines/</guid>
+      <description>&lt;p&gt;The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG
+(Direct Acyclic Graphs) batch processing jobs. It is based on Docker for
+artifact deployment, ECS (Amazon EC2 Container Service) for container
+orchestration and resource discovery, Luigi (by Spotify) for workflow and
+dependency management, SQS (Amazon Simple Queuing System) as a job queue, a
+custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis
+to for logging. On a service level our toolbox features a universal Python
+wrapper that allows to expose the functionality of each service to ECS and
+the workflow manager, in a consistent way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Global seismic anisotropy</title>
+      <link>/project/global-anisotropy/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/global-anisotropy/</guid>
       <description>
+
+&lt;h2 id=&#34;global-anisotropy-savani&#34;&gt;Global anisotropy (SAVANI)&lt;/h2&gt;
+
+&lt;p&gt;Together with colleagues at UPMC Paris (Lapo Boschi), USC Los Angeles
+(Thorsten Becker) and University of Oxford (Tarje Nissen-Meyer), have developed
+a new global model of anisotropic shear-velocity variations, called SAVANI,
+which represents one of the first attempts to map anisotropic wavespeeds at the
+scale of the entire mantle. While being well correlated with earlier models at
+long spatial wavelength, our preferred solution, savani, additionally delineates
+a number of previously unidentified structures, due to its improved resolution
+in areas of dense coverage.&lt;/p&gt;
+
+&lt;p&gt;This is because the density of the inverse grid ranges between 1.25° in well
+sampled to 5° in poorly sampled regions, allowing us to resolve regional
+structure better than it is typically the case in global S-wave tomography.
+Important features of our model include: (i) A distinct ocean-continent
+anisotropic signature in the uppermost mantle; (ii) an oceanic peak in above
+average ξ &amp;gt; 1 which is shallower than in previous models and thus in better
+agreement with estimates of lithosphere thickness.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;age-dependency.jpg&#34; width=500&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find more details about SAVANI in &lt;a href=&#34;https://doi.org/10.1002/2015GL066246&#34; target=&#34;_blank&#34;&gt;Auer et al. 2014
+(doi:10.1002/2013JB010773)&lt;/a&gt;. Also, feel free to
+download our model and documentation &lt;a href=&#34;https://github.com/auerl/savani&#34; target=&#34;_blank&#34;&gt;from my
+GitHub&lt;/a&gt;, if you want to use the model for
+your own work.&lt;/p&gt;
+
+&lt;h2 id=&#34;oceanic-upper-mantle&#34;&gt;Oceanic upper mantle&lt;/h2&gt;
+
+&lt;p&gt;Defining the oceanic lithosphere as a thermal boundary layer allows to explain,
+to first order, age-dependent bathymetry and isotropic wavespeeds. In contrast,
+SS precursors and receiver functions suggest a subhorizontal interface within
+this layer, on top of a radially anisotropic zone. Comparing a suite of
+geodynamic scenarios against surface-wave dispersion data and seismic
+discontinuties we find that only weak age dependency of the radially anisotropic
+zone is compatible with observations. We show that this zone is confined from
+below by a second, weaker seismic interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;upper-mantle.png&#34; width=500&gt;&lt;/p&gt;
+
+&lt;p&gt;While azimuthal anisotropy is consistent with LPO of olivine due to
+asthenospheric flow underneath the lithosphere, radial anisotropy requires
+additional contributions, perhaps from petrological fabrics or melt ponding.
+This implies that seismic reflectors previously associated with the base of the
+lithosphere are instead associated with preserved structures embedded in it.
+They carry information about plate formation, but have little control on plate
+deformation. See &lt;a href=&#34;https://doi.org/10.1002/2015GL066246&#34; target=&#34;_blank&#34;&gt;Auer et al. 2015 (doi:10.1002/2015GL066246)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;software-for-global-tomography&#34;&gt;Software for global tomography&lt;/h2&gt;
+
+&lt;p&gt;During my PhD I developed and contributed to several tools for global
+tomographic imaging, some of which are publicly available. See:&lt;/p&gt;
+
+&lt;h4 id=&#34;petscinv-a-general-purpose-parallel-tomography-solver-based-on-petsc&#34;&gt;PETScinv - A general purpose parallel tomography solver based on PETSc&lt;/h4&gt;
+
+&lt;p&gt;PETScinv is a modular, general purpose tomography solver written in (object
+oriented) Fortran 2008. PETScinv solves global tomographic imaging problems
+in parallel using the PETSc component KSP. The scalable linear equations solvers
+(KSP) module provides an easy-to-use interface to the combination of a Krylov
+subspace iterative method and a preconditioner (in the KSP and PC components,
+respectively) or a sequential direct solver.&lt;/p&gt;
+
+&lt;p&gt;The code currently only supports orthogonal, curvilinear hexahedral basis
+functions (spherical sections or voxels), but adding modules to treat other
+parametization strategies (splines, spherical harmonics, wavelets) to discretize
+the model space, should be straightforward. One can account for different
+regularization approaches, such as roughness minimization or norm minimization.
+Tomography results can be exported in a simple ASCII format or as netcdf files,
+together with an .xdmf file, ready to be explored with ParaView. Get the code
+on my &lt;a href=&#34;https://github.com/auerl/petscinv.git&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;flexinv-ray-theoretical-surface-and-body-wave-sensitivity-kernels&#34;&gt;FLEXinv - Ray-theoretical surface and body wave sensitivity kernels&lt;/h4&gt;
+
+&lt;p&gt;Flexinv is a Fortran/Python toolbox to create global, adaptive resolution
+transversely isotropic tomographic models of the entire mantle, via joint
+inversion of surface-wave dispersion and body-wave traveltimes, in the
+high-frequency ray approximation. See Auer et al. (2014) and Boschi (2009)
+for a complete description of the algorithm.&lt;/p&gt;
+
+&lt;p&gt;Some components of the surface wave parts of this code go back to Woodhouse
+(1981) and Dziewonski &amp;amp; Anderson (1981). The body-wave routines go back to
+Gu (2005). Crustal corrections are based on CRUST2.0 by Laske et al. (2002).
+Models are parameterized in curvilinear hexahedrons, whose size is adapted
+to local ray coverage, following Schäfer et al. (2011). Get the code on my
+&lt;a href=&#34;https://github.com/auerl/flexinv.git&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;mckernel-broadband-waveform-sensitivity-kernels-for-seismic-tomography&#34;&gt;MCkernel - Broadband waveform sensitivity kernels for seismic tomography&lt;/h4&gt;
+
+&lt;p&gt;MCkernel is a software implementation to calculate seismic sensitivity kernels
+on arbitrary tetrahedral or hexahedral grids across the whole observable seismic
+frequency band. These kernels rely on wavefield databases computed via AxiSEM
+(www.axisem.info), and thus on spherically symmetric models. The advantage is
+that frequencies up to 0.2 Hz and higher can be accessed.&lt;/p&gt;
+
+&lt;p&gt;Since the usage of irregular, adapted grids is an integral part of
+regularisation in seismic tomography, MCkernel works in a inversion-grid-centred
+fashion: A Monte-Carlo integration method is used to project the kernel onto
+each basis function, which allows to control the desired precision of the kernel
+estimation.&lt;/p&gt;
+
+&lt;p&gt;Also, it means that the code concentrates calculation effort on regions of
+interest without prior assumptions on the kernel shape. The code makes extensive
+use of redundancies in calculating kernels for different receivers or
+frequency-pass-bands for one earthquake, to facilitate its usage in large-scale
+global seismic tomography. MCkernel is available &lt;a href=&#34;http://seismology.github.io/mc_kernel/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sprint age dependency</title>
+      <link>/project/sprint-age-dependency/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/sprint-age-dependency/</guid>
+      <description>
+
+&lt;h2 id=&#34;age-dependency-of-sprint-top-speeds&#34;&gt;Age-dependency of sprint top speeds&lt;/h2&gt;
+
+&lt;p&gt;TRACKTICS is having a long-term partnership with Fundación Real Madrid Clinics
+(FRMC) where we equip hundreds of football schools under the Real Madrid Brand
+Umbrella with our GPS performance trackers. In the scope of this partnership we have
+collected performance data of tens of thousands of youth players, which amounts
+to what we think is probably the largest data set of its kind.&lt;/p&gt;
+
+&lt;p&gt;Based on the Real Madrid dataset we have devised a new model of sprint top speed
+age-dependency, using simple restricted cubic spline regression (see the figure above).
+While we have used the resulting model in the scope of our partnership with FRMC
+we have not yet got the time to wrap up the model in a publication, which would
+be interesting for a larger audience, as our model is probably the most
+extensive modelling attempt of sprint top speed age-dependency ever conducted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Twitter sentiment analysis</title>
+      <link>/project/cloudquake/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/cloudquake/</guid>
+      <description>&lt;p&gt;CloudQuake is a university project where I tried to apply real-time sentiment analysis on Twitter
+streams. Our approach was to first collect data via Amazon Kinesis (which allows
+for a convenient way to combine data from different sources) and then use Apache
+Spark Realtime and its MLlib to classify tweets using a simple Naive Bayes
+classifier trained with publicly available annotations. While the initial idea
+was to first filter the data for earthquake related tweets and then combine the
+inferred tweet sentiments with a Long/Short term moving average indicator with
+the goal to detect whether the mentions of Quake-related tweets allow to detect
+earthquakes. The detection didn&amp;rsquo;t prove to be stable probably owed to the
+relatively limited amount of tweets that is provided by the Twitters free Api.
+So all is left is a nice Twitter sentiment analysis engine ;-). The code is
+&lt;a href=&#34;https://github.com/auerl/cqsent&#34; target=&#34;_blank&#34;&gt;available&lt;/a&gt; on my GitHub.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Waveform Tomography</title>
+      <link>/project/waveform-imaging/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/waveform-imaging/</guid>
+      <description>
+
+&lt;h2 id=&#34;full-waveform-tomography&#34;&gt;Full Waveform Tomography&lt;/h2&gt;
+
+&lt;p&gt;Seismic Full Waveform Tomography has been one of my main interests since my
+thesis supervisor Prof. Stewart Greenhalgh has introduced me to the
+topic during the final year of my Master&amp;rsquo;s studies in 2011. Full waveform
+tomography describes an inverse modeling approach, where information encoded in
+subtle variations in seismic and acoustic waveforms that have traversed
+complex media, are mapped back into structural images of the subsurface at
+scales from medical imaging applications up to dimensions of the whole earth.&lt;/p&gt;
+
+&lt;p&gt;At the core of these methods lie, on one hand, compute intensive forward problems
+where the seismic or acoustic wave equation is solved to compute &amp;ldquo;sensitivity
+kernels&amp;rdquo; (essentially reverse mapping functions from waveform or traveltime
+differences to structure) as well as a large-scale optimization problems, where
+the sensitivity kernels are used to reconstruct structural models of wave
+speeds or other physical parameters.&lt;/p&gt;
+
+&lt;p&gt;There have been a plethora of approaches to solve these problems, pursuing
+different strategies to compute sensitivity kernels (time domain, frequency
+domain, approximate methods, full-wave methods) and to solve the inverse problem
+(conjugate gradient methods, hessian based methods, &amp;hellip;).&lt;/p&gt;
+
+&lt;p&gt;While during my &lt;a href=&#34;https://auerl.github.io/downloads/msc_thesis.pdf&#34; target=&#34;_blank&#34;&gt;MSc thesis&lt;/a&gt; I
+worked on frequency-domain waveform inversion on the exploration (and near surface)
+scale, during my &lt;a href=&#34;https://doi.org/10.3929/ethz-a-010715830&#34; target=&#34;_blank&#34;&gt;PhD thesis&lt;/a&gt; I focused on
+methods for whole-earth imaging. In this context I have developed a waveform
+based imaging method for global tomographiy imaging that is called &amp;ldquo;Broadband
+Tomography&amp;rdquo; and combines infinite-frequency ray theory for the surface wave
+portions of the seismogram, with finite-frequency kernels for the body wave
+portion of the seismic record.&lt;/p&gt;
 
 &lt;h2 id=&#34;3d-to-2d-data-transformations&#34;&gt;3D-to-2D Data Transformations&lt;/h2&gt;
 
-&lt;p&gt;Seismic full waveform inversion is often based on forward modelling in the
+&lt;p&gt;My first project in the area of full waveform tomography has been during my MSc
+thesis where I was investigating detrimental effect of common 3D-to-2D data
+transformations on frequency domain FWI. This is important because seismic full
+waveform inversion is often  based on forward modelling in the
 computationally attractive 2-D domain. Any solution of the 2-D cartesian wave
 equation inherently carries the assumption of being generated by a line source,
 extended in the out-of-plane direction, implying that source energy spreads over
@@ -34,135 +271,70 @@ phase shift of π/4 by transforming recorded field data to approximate 2-D, usin
 simplistic asymptotic filter algorithms, operating on a time-sample basis and
 assuming straight ray paths and a constant velocity medium. The sometimes
 careless usage of these filters, is in contradiction to their well known
-limitations. I could show that filtering errors are moderate in purely acoustic
+limitations. We used Finite-Element modeling in the frequency domain to &amp;hellip; I
+could show that filtering errors are moderate in purely acoustic
 situations but become substantial in complex media when arrivals overlap each
 other or ray paths deviate strongly from straight lines. Normalized
 root-mean-square deviations up to 5 % and maximum relative time domain errors up
 to 40 % were found in high contrast media, when full elastic treatment is
-considered. See doi: 10.1190/geo2012-0382.1&lt;/p&gt;
+considered. We published our results in Auer et al. 2013, &lt;a href=&#34;https://doi.org/10.1190/geo2012-0382.1&#34; target=&#34;_blank&#34;&gt;10.1190/geo2012-0382.1&lt;/a&gt;
+Also feel free to download my &lt;a href=&#34;https://auerl.github.io/downloads/msc_thesis_auer.pdf&#34; target=&#34;_blank&#34;&gt;thesis&lt;/a&gt;.
+or a pdf of my &lt;a href=&#34;https://auerl.github.io/downloads/msc_talk_auer.pdf&#34; target=&#34;_blank&#34;&gt;thesis presentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;2-5-d-full-waveform-tomography&#34;&gt;2.5-D Full Waveform Tomography&lt;/h2&gt;
 
-&lt;p&gt;As part of my Masters thesis I investiagted potential of 2.5-D frequency-domain
+&lt;p&gt;Motivated by the questionable performance of the aforementioned 3D-to-2D filters
+the second chapter of my thesis investiagted potential of 2.5-D frequency-domain
 finite-element modelling of seismic wave propagation, which is based on Fourier
 transforming the 3-D wave equation along the invariant axis to
-frequency-wavenumber domain and solving the resulting equation for many
-wavenumber components,&lt;/p&gt;
+frequency-wavenumber  domain and solving the resulting equation for many
+wavenumber components, thus breaking down the 3-D problem to a large number of
+2-D problems. In my thesis I made an attempt to circumvent problems associated
+with singularities in the wavenumber spectrum by combining a finite-element
+2.5-D forward solver and a complex-frequency extension.&lt;/p&gt;
 
-&lt;p&gt;thus breaking down the 3-D problem to a large number of 2-D problems. An attempt
-is made to circumvent problems associated with singularities in the wavenumber
-spectrum by combining a finite-element 2.5-D forward solver and a
-complex-frequency extension. By shifting the poles off the real axis, they are
-avoided in the inverse Fourier transform to the frequency domain. I could show
-that problems associated with the singularities are mitigated and the total
+&lt;p&gt;&lt;img src=&#34;wavenumber-spectrum.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;By shifting the poles off the real axis, they are avoided in the inverse Fourier
+transform to the frequency domain. I could show that problems associated
+with the singularities are mitigated and the total
 number of required wavenumber samples is significantly reduced, as soon as
 frequencies are allowed to be complex. Reconstructed finite-element 2.5-D
 seismograms compare very well to reference finite-difference 3-D seismograms.
 2.5-D modelling with complex frequencies outperforms asymptotic 3D-to-2D
 transformation showing very low misfits between 2.5-D and 3-D synthetics.&lt;/p&gt;
+
+&lt;h2 id=&#34;broadband-finite-frequency-kernels&#34;&gt;Broadband Finite Frequency Kernels&lt;/h2&gt;
+
+&lt;p&gt;While tomographic imaging of global anisotropy was with few exceptions still
+using ray theoretic methods. In my &lt;a href=&#34;https://doi.org/10.3929/ethz-a-010715830&#34; target=&#34;_blank&#34;&gt;PhD
+thesis&lt;/a&gt;
+I have presented the theoretical and methological foundations of a new global
+waveform tomography approach, with the rationale to keep approximate (ray) theory where appropriate (global long-
+wavelength structure, surface wavedispersion), but to revert to a full-waveform
+interpretation where necessary (regional scale, non-geometrical wave phenomena).
+Finite-frequency kernels are being calculated via the spectral element solver
+&lt;a href=&#34;https://github.com/geodynamics/axisem&#34; target=&#34;_blank&#34;&gt;AxiSEM&lt;/a&gt; (Nissen-Meyer et al. 2014) and a new code called
+&lt;a href=&#34;http://seismology.github.io/mc_kernel/&#34; target=&#34;_blank&#34;&gt;MCkernel&lt;/a&gt;.
+Our imaging method provides a framework to stepwise improve upon a global
+background model by re-inverting an updated linear system whenever new (types
+of) data become available.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;waveform-kernels.png&#34; width=500&gt;&lt;/p&gt;
+
+&lt;p&gt;The huge advantage of using numerical methods to compute banana donought kernels
+as shown in the above figure is that while wave theory breaks down for
+non-geometrical wave phenomena like Core-diffractions, spectral-element based FF
+kernels can account for the complex interactions at the core mantle boundary and
+thus allow imaging those interesting regions of the earths mantle with higher
+accuracy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;predicted-deltat.png&#34; width=500&gt;&lt;/p&gt;
+
+&lt;p&gt;My PhD thesis can be downloaded
+&lt;a href=&#34;https://doi.org/10.3929/ethz-a-010715830&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+Also find my thesis presentation under &lt;a href=&#34;https://auerl.github.io/downloads/phd_talk_auer.pdf&#34; target=&#34;_blank&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Animating data with Unity</title>
-      <link>/project/football-animation/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
-      
-      <guid>/project/football-animation/</guid>
-      <description>&lt;p&gt;At TRACKTICS we are constantly trying to come up with new ways to visualize the
-  data our customers acquire with their Trackers. Here&amp;rsquo;s a small example of how
-  Unity can be used to&lt;/p&gt;
-
-&lt;iframe
-src=&#34;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftracktics%2Fvideos%2F1073790999445342%2F&amp;show_text=0&amp;width=476&#34;
-width=&#34;476&#34; height=&#34;476&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34;
-frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://reportage2.stuttgarter-zeitung.de/fussball-digitalisierung&#34; target=&#34;_blank&#34;&gt;https://reportage2.stuttgarter-zeitung.de/fussball-digitalisierung&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data analysis pipeline</title>
-      <link>/project/data-pipelines/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
-      
-      <guid>/project/data-pipelines/</guid>
-      <description>&lt;p&gt;This repository contains a set of infrastructure tools to deploy, operate and develop the so called TRACKTICS Pipeline. The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis to for logging. On a service level our toolbox features a universal Python wrapper that allows to expose the functionality of each service to ECS and the workflow manager, in a consistent way.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Global seismic anisotropy</title>
-      <link>/project/global-anisotropy/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
-      
-      <guid>/project/global-anisotropy/</guid>
-      <description>
-
-&lt;h2 id=&#34;global-anisotropy&#34;&gt;Global anisotropy&lt;/h2&gt;
-
-&lt;p&gt;Recently, me and colleagues at UPMC Paris (Lapo Boschi), USC Los Angeles
-(Thorsten Becker) and University of Oxford (Tarje Nissen-Meyer), have developed
-a new global model of anisotropic shear-velocity variations, called savani,
-which represents one of the first attempts to map anisotropic wavespeeds at the
-scale of the entire mantle. While being well correlated with earlier models at
-long spatial wavelength, our preferred solution, savani, additionally delineates
-a number of previously unidentified structures, due to its improved resolution
-in areas of dense coverage.&lt;/p&gt;
-
-&lt;p&gt;This is because the density of the inverse grid ranges between 1.25 ◦ in well
-sampled to 5◦ in poorly sampled regions, allowing us to resolve regional
-structure better than it is typically the case in global S-wave tomography.
-Important features of our model include: (i) A distinct ocean-continent
-anisotropic signature in the uppermost mantle; (ii) an oceanic peak in above
-average ξ &amp;gt; 1 which is shallower than in previous models and thus in better
-agreement with estimates of lithosphere thickness.&lt;/p&gt;
-
-&lt;p&gt;See a publication about savani at doi:10.1002/2013JB010773 and feel free to
-download our model and documentation via&lt;/p&gt;
-
-&lt;h2 id=&#34;broadband-tomography&#34;&gt;Broadband tomography&lt;/h2&gt;
-
-&lt;p&gt;In my thesis I have presented the theoretical and methological foundations of a
-new global waveform tomography approach, with the rationale to keep approximate
-(ray) theory where appropriate (global long-wavelength structure, surface wave
-dispersion), but to revert to a full-waveform interpretation where necessary
-(regional scale, non-geometrical wave phenomena). Finite-frequency kernels are
-being calculated via the spectral element solver AxiSEM (Nissen-Meyer et al.
-2014) and a new code called MCkernel (co-developed with Simon Stähler and Martin
-van Driel). Overall, our method will provide straightforward framework to
-stepwise improve upon a global background model by re-inverting an updated
-linear system whenever new (types of) data become available.&lt;/p&gt;
-
-&lt;h2 id=&#34;oceanic-upper-mantle&#34;&gt;Oceanic upper mantle&lt;/h2&gt;
-
-&lt;p&gt;Defining the oceanic lithosphere as a thermal boundary layer allows to explain,
-to first order, age-dependent bathymetry and isotropic wavespeeds. In contrast,
-SS precursors and receiver functions suggest a subhorizontal interface within
-this layer, on top of a radially anisotropic zone. Comparing a suite of
-geodynamic scenarios against surface-wave dispersion data and seismic
-discontinuties we find that only weak age dependency of the radially anisotropic
-zone is compatible with observations. We show that this zone is confined from
-below by a second, weaker seismic interface.&lt;/p&gt;
-
-&lt;p&gt;While azimuthal anisotropy is consistent with LPO of olivine due to
-asthenospheric flow underneath the lithosphere, radial anisotropy requires
-additional contributions, perhaps from petrological fabrics or melt ponding.
-This implies that seismic reflectors previously associated with the base of the
-lithosphere are instead associated with preserved structures embedded in it.
-They carry information about plate formation, but have little control on plate
-deformation. See doi:10.1002/2015GL066246.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Twitter quake detection</title>
-      <link>/project/cloudquake/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
-      
-      <guid>/project/cloudquake/</guid>
-      <description></description>
     </item>
     
     <item>

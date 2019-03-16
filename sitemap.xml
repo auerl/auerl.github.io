@@ -4,14 +4,6 @@
     
     <url>
     
-      <loc>/project/25d-wfi/</loc>
-      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/project/football-animation/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
     </url>
@@ -36,7 +28,23 @@
     
     <url>
     
+      <loc>/project/sprint-age-dependency/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/project/cloudquake/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/waveform-imaging/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
     </url>
     
@@ -117,6 +125,15 @@
     
     <url>
     
+      <loc>/tags/2.5-d/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/3d/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
       <priority>0</priority>
@@ -136,6 +153,15 @@
     <url>
     
       <loc>/tags/batch/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/broadband/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -197,6 +223,15 @@
     
     <url>
     
+      <loc>/tags/kernels/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/lithosphere-asthenosphere-boundary-lab/</loc>
       <lastmod>2015-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -207,6 +242,15 @@
     <url>
     
       <loc>/tags/luigi/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/madrid/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -251,6 +295,24 @@
     
     <url>
     
+      <loc>/tags/real/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/regression/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/s3/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
       <priority>0</priority>
@@ -270,6 +332,24 @@
     <url>
     
       <loc>/tags/savani/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/spline/</loc>
+      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/sprints/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
       <priority>0</priority>
     </url>
