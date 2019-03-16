@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kernels on https://auerl.github.io</title>
+    <link>/tags/kernels/</link>
+    <description>Recent content in Kernels on https://auerl.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 28 Dec 2018 11:27:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/kernels/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Waveform Tomography</title>
+      <link>/project/waveform-imaging/</link>
+      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      
+      <guid>/project/waveform-imaging/</guid>
+      <description>Full Waveform Tomography Seismic Full Waveform Tomography has been one of my main interests since my thesis supervisor Prof. Stewart Greenhalgh has introduced me to the topic during the final year of my Master&amp;rsquo;s studies in 2011. Full waveform tomography describes an inverse modeling approach, where information encoded in subtle variations in seismic and acoustic waveforms that have traversed complex media, are mapped back into structural images of the subsurface at scales from medical imaging applications up to dimensions of the whole earth.</description>
+    </item>
+    
+  </channel>
+</rss>
