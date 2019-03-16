@@ -16,8 +16,8 @@
       <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
       
       <guid>/project/football-animation/</guid>
-      <description>&lt;p&gt;At TRACKTICS we are constantly trying to come up with new ways to visualize the
-data that our customers acquire with their Trackers. Recently, we have devised a
+      <description>&lt;p&gt;At &lt;a href=&#34;https://www.tracktics.com&#34; target=&#34;_blank&#34;&gt;TRACKTICS&lt;/a&gt; we are constantly trying to come up with new ways to visualize the
+data that our customers acquire with their GPS Performance Trackers. Recently, we have devised a
 prototype feature of visualizing Location and Attitude data in the form of
 three-dimensional animations using the Unity 3D engine. Here&amp;rsquo;s a small example:&lt;/p&gt;
 
@@ -28,8 +28,8 @@ frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allowFullScreen=&#34;tr
 
 &lt;p&gt;The visualization has been featured in a Report by &lt;a href=&#34;https://reportage2.stuttgarter-zeitung.de/fussball-digitalisierung&#34; target=&#34;_blank&#34;&gt;Stuttgarter
 Zeitung&lt;/a&gt;
-and is possibly going to result Web App feature (using Unity&amp;rsquo;s WebGL bindings)&lt;br /&gt;
-for coaches.&lt;/p&gt;
+and might be turned into a new feature for TRACKTIC&amp;rsquo;s &lt;a href=&#34;https://app.tracktics.com&#34; target=&#34;_blank&#34;&gt;Web
+App&lt;/a&gt; feature (using Unity&amp;rsquo;s built tools for WebGL).&lt;/p&gt;
 </description>
     </item>
     

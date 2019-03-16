@@ -2,7 +2,7 @@
   {
     "authors": null,
     "categories": [],
-    "content": "At TRACKTICS we are constantly trying to come up with new ways to visualize the data that our customers acquire with their Trackers. Recently, we have devised a prototype feature of visualizing Location and Attitude data in the form of three-dimensional animations using the Unity 3D engine. Here\u0026rsquo;s a small example:\n The visualization has been featured in a Report by Stuttgarter Zeitung and is possibly going to result Web App feature (using Unity\u0026rsquo;s WebGL bindings)\nfor coaches.\n",
+    "content": "At TRACKTICS we are constantly trying to come up with new ways to visualize the data that our customers acquire with their GPS Performance Trackers. Recently, we have devised a prototype feature of visualizing Location and Attitude data in the form of three-dimensional animations using the Unity 3D engine. Here\u0026rsquo;s a small example:\n The visualization has been featured in a Report by Stuttgarter Zeitung and might be turned into a new feature for TRACKTIC\u0026rsquo;s Web App feature (using Unity\u0026rsquo;s built tools for WebGL).\n",
     "date": 1545992820,
     "expirydate": -62135596800,
     "kind": "page",
@@ -13,7 +13,7 @@
     "publishdate": "2018-12-28T11:27:00+01:00",
     "relpermalink": "/project/football-animation/",
     "section": "project",
-    "summary": "At TRACKTICS we are constantly trying to come up with new ways to visualize the data that our customers acquire with their Trackers. Recently, we have devised a prototype feature of visualizing Location and Attitude data in the form of three-dimensional animations using the Unity 3D engine. Here\u0026rsquo;s a small example:\n The visualization has been featured in a Report by Stuttgarter Zeitung and is possibly going to result Web App feature (using Unity\u0026rsquo;s WebGL bindings)",
+    "summary": "At TRACKTICS we are constantly trying to come up with new ways to visualize the data that our customers acquire with their GPS Performance Trackers. Recently, we have devised a prototype feature of visualizing Location and Attitude data in the form of three-dimensional animations using the Unity 3D engine. Here\u0026rsquo;s a small example:\n The visualization has been featured in a Report by Stuttgarter Zeitung and might be turned into a new feature for TRACKTIC\u0026rsquo;s Web App feature (using Unity\u0026rsquo;s built tools for WebGL).",
     "tags": [
       "Football",
       "3D",
