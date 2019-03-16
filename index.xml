@@ -80,8 +80,7 @@ agreement with estimates of lithosphere thickness.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;age-dependency.jpg&#34; width=500&gt;&lt;/p&gt;
 
-&lt;p&gt;You can find more details about SAVANI in &lt;a href=&#34;https://doi.org/10.1002/2015GL066246&#34; target=&#34;_blank&#34;&gt;Auer et al. 2014
-(doi:10.1002/2013JB010773)&lt;/a&gt;. Also, feel free to
+&lt;p&gt;You can find more details about SAVANI and its construction in &lt;a href=&#34;https://doi.org/10.1002/2013JB010773&#34; target=&#34;_blank&#34;&gt;Auer et al. 2014&lt;/a&gt;. Also, feel free to
 download our model and documentation &lt;a href=&#34;https://github.com/auerl/savani&#34; target=&#34;_blank&#34;&gt;from my
 GitHub&lt;/a&gt;, if you want to use the model for
 your own work.&lt;/p&gt;
@@ -105,7 +104,7 @@ additional contributions, perhaps from petrological fabrics or melt ponding.
 This implies that seismic reflectors previously associated with the base of the
 lithosphere are instead associated with preserved structures embedded in it.
 They carry information about plate formation, but have little control on plate
-deformation. See &lt;a href=&#34;https://doi.org/10.1002/2015GL066246&#34; target=&#34;_blank&#34;&gt;Auer et al. 2015 (doi:10.1002/2015GL066246)&lt;/a&gt;.&lt;/p&gt;
+deformation. See &lt;a href=&#34;https://doi.org/10.1002/2015GL066246&#34; target=&#34;_blank&#34;&gt;Auer et al. 2015&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;software-for-global-tomography&#34;&gt;Software for global tomography&lt;/h2&gt;
 
@@ -128,22 +127,22 @@ the model space, should be straightforward. One can account for different
 regularization approaches, such as roughness minimization or norm minimization.
 Tomography results can be exported in a simple ASCII format or as netcdf files,
 together with an .xdmf file, ready to be explored with ParaView. Get the code
-on my &lt;a href=&#34;https://github.com/auerl/petscinv.git&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+via my &lt;a href=&#34;https://github.com/auerl/petscinv.git&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;flexinv-ray-theoretical-surface-and-body-wave-sensitivity-kernels&#34;&gt;FLEXinv - Ray-theoretical surface and body wave sensitivity kernels&lt;/h4&gt;
 
 &lt;p&gt;Flexinv is a Fortran/Python toolbox to create global, adaptive resolution
 transversely isotropic tomographic models of the entire mantle, via joint
 inversion of surface-wave dispersion and body-wave traveltimes, in the
-high-frequency ray approximation. See Auer et al. (2014) and Boschi (2009)
+high-frequency ray approximation. See &lt;it&gt;Auer et al. (2014)&lt;/it&gt; and &lt;it&gt;Boschi (2009)&lt;/it&gt;
 for a complete description of the algorithm.&lt;/p&gt;
 
 &lt;p&gt;Some components of the surface wave parts of this code go back to Woodhouse
 (1981) and Dziewonski &amp;amp; Anderson (1981). The body-wave routines go back to
-Gu (2005). Crustal corrections are based on CRUST2.0 by Laske et al. (2002).
+&lt;it&gt;Gu (2005)&lt;/it. Crustal corrections are based on CRUST2.0 by &lt;it&gt;Laske et al. (2002)&lt;/it&gt;.
 Models are parameterized in curvilinear hexahedrons, whose size is adapted
-to local ray coverage, following Schäfer et al. (2011). Get the code on my
-&lt;a href=&#34;https://github.com/auerl/flexinv.git&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+to local ray coverage, following &lt;it&gt;Schäfer et al. (2011)&lt;/it&gt;. Get the code
+via my &lt;a href=&#34;https://github.com/auerl/flexinv.git&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;mckernel-broadband-waveform-sensitivity-kernels-for-seismic-tomography&#34;&gt;MCkernel - Broadband waveform sensitivity kernels for seismic tomography&lt;/h4&gt;
 
