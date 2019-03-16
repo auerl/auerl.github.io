@@ -270,14 +270,15 @@ phase shift of π/4 by transforming recorded field data to approximate 2-D, usin
 simplistic asymptotic filter algorithms, operating on a time-sample basis and
 assuming straight ray paths and a constant velocity medium. The sometimes
 careless usage of these filters, is in contradiction to their well known
-limitations. We used Finite-Element modeling in the frequency domain to &amp;hellip; I
-could show that filtering errors are moderate in purely acoustic
-situations but become substantial in complex media when arrivals overlap each
+limitations. Comparing simulated data using a FDTD forward solver
+for visco-elastic seismic wave propagation in 3D and 2D media, we could show
+that filtering errors are moderate in purely acoustic situations but become
+substantial in complex media when arrivals overlap each
 other or ray paths deviate strongly from straight lines. Normalized
-root-mean-square deviations up to 5 % and maximum relative time domain errors up
-to 40 % were found in high contrast media, when full elastic treatment is
-considered. We published our results in Auer et al. 2013, &lt;a href=&#34;https://doi.org/10.1190/geo2012-0382.1&#34; target=&#34;_blank&#34;&gt;10.1190/geo2012-0382.1&lt;/a&gt;
-Also feel free to download my &lt;a href=&#34;https://auerl.github.io/downloads/msc_thesis_auer.pdf&#34; target=&#34;_blank&#34;&gt;thesis&lt;/a&gt;.
+root-mean-square deviations up to 5% and maximum relative time domain errors up
+to 40% were found in high contrast media, when full elastic treatment is
+considered. We published our results in &lt;a href=&#34;https://doi.org/10.1190/geo2012-0382.1&#34; target=&#34;_blank&#34;&gt;Auer et al. 2013&lt;/a&gt;.
+Also feel free to download my &lt;a href=&#34;https://auerl.github.io/downloads/msc_thesis_auer.pdf&#34; target=&#34;_blank&#34;&gt;thesis&lt;/a&gt;
 or a pdf of my &lt;a href=&#34;https://auerl.github.io/downloads/msc_talk_auer.pdf&#34; target=&#34;_blank&#34;&gt;thesis presentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;2-5-d-full-waveform-tomography&#34;&gt;2.5-D Full Waveform Tomography&lt;/h2&gt;
