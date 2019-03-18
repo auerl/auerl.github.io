@@ -11,6 +11,58 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3</title>
+      <link>/post/tracktics-data-pipeline/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
+      
+      <guid>/post/tracktics-data-pipeline/</guid>
+      <description>&lt;!---
+
+## Introduction 
+
+- Describe the problem
+
+## Our Solution
+
+- Insipration blog posts
+
+### Architecture overview
+
+- Sketch of TRACKTICS architecture
+
+### Workflow Management
+
+- Luigi vs. Airflow vs. 
+- Directed Acyclic Graphs
+
+### Container Orchestration
+
+- ECS vs Kubernetes vs Fargate
+
+### Continuous Integration
+
+- Testing approach
+- 
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Q-Learning with PyTorch and the Unity ML-Agents Toolkit</title>
+      <link>/post/deep-reinforcement-learning/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/post/deep-reinforcement-learning/</guid>
+      <description>&lt;!---
+
+## Introduction
+
+- How I got interested in the topic: The AI &amp; Games conference
+--&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Animating data with Unity</title>
       <link>/project/football-animation/</link>
       <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>

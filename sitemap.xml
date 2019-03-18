@@ -4,6 +4,22 @@
     
     <url>
     
+      <loc>/post/tracktics-data-pipeline/</loc>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/deep-reinforcement-learning/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/project/football-animation/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
     </url>
@@ -153,7 +169,7 @@
     <url>
     
       <loc>/tags/batch/</loc>
-      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -178,8 +194,44 @@
     
     <url>
     
+      <loc>/tags/data/</loc>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/data-engineering/</loc>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/deep-q-learning/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/docker/</loc>
-      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/double-dqn/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -188,7 +240,7 @@
     <url>
     
       <loc>/tags/ecs/</loc>
-      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -198,6 +250,15 @@
     
       <loc>/tags/football/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/gaming/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -232,6 +293,15 @@
     
     <url>
     
+      <loc>/tags/learning/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/lithosphere-asthenosphere-boundary-lab/</loc>
       <lastmod>2015-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -242,7 +312,25 @@
     <url>
     
       <loc>/tags/luigi/</loc>
-      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/ml-agents/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/machine-learning/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -295,6 +383,15 @@
     
     <url>
     
+      <loc>/tags/rainbow/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/real/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
       <priority>0</priority>
@@ -313,8 +410,17 @@
     
     <url>
     
+      <loc>/tags/reinforcement/</loc>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/s3/</loc>
-      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -333,6 +439,15 @@
     
       <loc>/tags/savani/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/sensor-fusion/</loc>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -367,6 +482,15 @@
     
     <url>
     
+      <loc>/categories/tracktics/</loc>
+      <lastmod>2019-03-18T23:05:47+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/</loc>
       <lastmod>2018-12-28T11:27:00+01:00</lastmod>
       <priority>0</priority>
@@ -386,7 +510,7 @@
     <url>
     
       <loc>/tags/unity/</loc>
-      <lastmod>2018-12-28T11:27:00+01:00</lastmod>
+      <lastmod>2019-03-18T23:05:40+01:00</lastmod>
       <priority>0</priority>
     </url>
     

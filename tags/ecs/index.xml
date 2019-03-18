@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 28 Dec 2018 11:27:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 23:05:47 +0100</lastBuildDate>
     
 	<atom:link href="/tags/ecs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3</title>
+      <link>/post/tracktics-data-pipeline/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
+      
+      <guid>/post/tracktics-data-pipeline/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data analysis pipeline</title>

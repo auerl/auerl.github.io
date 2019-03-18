@@ -1,5 +1,69 @@
 [
   {
+    "authors": [
+      "Ludwig Auer"
+    ],
+    "categories": [
+      "TRACKTICS",
+      "Data Engineering"
+    ],
+    "content": "",
+    "date": 1552946747,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1552946747,
+    "objectID": "76c01253b9f192a658f197a603c49331",
+    "permalink": "/post/tracktics-data-pipeline/",
+    "publishdate": "2019-03-18T23:05:47+01:00",
+    "relpermalink": "/post/tracktics-data-pipeline/",
+    "section": "post",
+    "summary": "",
+    "tags": [
+      "Data",
+      "Docker",
+      "S3",
+      "ECS",
+      "Batch",
+      "Sensor Fusion",
+      "Luigi"
+    ],
+    "title": "Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3",
+    "type": "post"
+  },
+  {
+    "authors": [
+      "Ludwig Auer"
+    ],
+    "categories": [
+      "Machine Learning",
+      "Gaming"
+    ],
+    "content": "",
+    "date": 1552946740,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1552946740,
+    "objectID": "ae9563a078c6d7f2753337599635b41c",
+    "permalink": "/post/deep-reinforcement-learning/",
+    "publishdate": "2019-03-18T23:05:40+01:00",
+    "relpermalink": "/post/deep-reinforcement-learning/",
+    "section": "post",
+    "summary": "",
+    "tags": [
+      "ML-Agents",
+      "Deep Q Learning",
+      "Double DQN",
+      "Rainbow",
+      "Unity",
+      "Reinforcement",
+      "Learning"
+    ],
+    "title": "Deep Q-Learning with PyTorch and the Unity ML-Agents Toolkit",
+    "type": "post"
+  },
+  {
     "authors": null,
     "categories": [],
     "content": "At TRACKTICS we are constantly trying to come up with new ways to visualize the data that our customers acquire with their GPS Performance Trackers. Recently, we have devised a prototype feature of visualizing Location and Attitude data in the form of three-dimensional animations using the Unity 3D engine. Here\u0026rsquo;s a small example:\n The visualization has been featured in a Report by Stuttgarter Zeitung and might be turned into a new feature for TRACKTIC\u0026rsquo;s Web App feature (using Unity\u0026rsquo;s built tools for WebGL).\n",

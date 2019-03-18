@@ -11,5 +11,41 @@
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Data Engineering</title>
+      <link>/categories/data-engineering/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
+      
+      <guid>/categories/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaming</title>
+      <link>/categories/gaming/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/categories/gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>/categories/machine-learning/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TRACKTICS</title>
+      <link>/categories/tracktics/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
+      
+      <guid>/categories/tracktics/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -42,7 +42,7 @@
     <item>
       <title>Batch</title>
       <link>/tags/batch/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
       
       <guid>/tags/batch/</guid>
       <description></description>
@@ -58,18 +58,45 @@
     </item>
     
     <item>
+      <title>Data</title>
+      <link>/tags/data/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
+      
+      <guid>/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Q Learning</title>
+      <link>/tags/deep-q-learning/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/tags/deep-q-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Docker</title>
       <link>/tags/docker/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
       
       <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Double DQN</title>
+      <link>/tags/double-dqn/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/tags/double-dqn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ECS</title>
       <link>/tags/ecs/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
       
       <guid>/tags/ecs/</guid>
       <description></description>
@@ -112,6 +139,15 @@
     </item>
     
     <item>
+      <title>Learning</title>
+      <link>/tags/learning/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lithosphere Asthenosphere Boundary (LAB)</title>
       <link>/tags/lithosphere-asthenosphere-boundary-lab/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
@@ -123,9 +159,18 @@
     <item>
       <title>Luigi</title>
       <link>/tags/luigi/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
       
       <guid>/tags/luigi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML-Agents</title>
+      <link>/tags/ml-agents/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/tags/ml-agents/</guid>
       <description></description>
     </item>
     
@@ -157,6 +202,15 @@
     </item>
     
     <item>
+      <title>Rainbow</title>
+      <link>/tags/rainbow/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/tags/rainbow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Real</title>
       <link>/tags/real/</link>
       <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
@@ -175,9 +229,18 @@
     </item>
     
     <item>
+      <title>Reinforcement</title>
+      <link>/tags/reinforcement/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
+      
+      <guid>/tags/reinforcement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>S3</title>
       <link>/tags/s3/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
       
       <guid>/tags/s3/</guid>
       <description></description>
@@ -198,6 +261,15 @@
       <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
       
       <guid>/tags/savani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensor Fusion</title>
+      <link>/tags/sensor-fusion/</link>
+      <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
+      
+      <guid>/tags/sensor-fusion/</guid>
       <description></description>
     </item>
     
@@ -240,7 +312,7 @@
     <item>
       <title>Unity</title>
       <link>/tags/unity/</link>
-      <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
+      <pubDate>Mon, 18 Mar 2019 23:05:40 +0100</pubDate>
       
       <guid>/tags/unity/</guid>
       <description></description>
