@@ -18,7 +18,8 @@
       <pubDate>Mon, 18 Mar 2019 23:05:47 +0100</pubDate>
       
       <guid>/post/tracktics-data-pipeline/</guid>
-      <description></description>
+      <description>Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.
+ Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm.</description>
     </item>
     
     <item>

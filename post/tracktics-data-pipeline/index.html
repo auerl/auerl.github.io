@@ -15,7 +15,8 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.
+ Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/tracktics-data-pipeline/">
@@ -108,7 +109,8 @@
   <meta property="og:site_name" content="https://auerl.github.io">
   <meta property="og:url" content="/post/tracktics-data-pipeline/">
   <meta property="og:title" content="Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3 | https://auerl.github.io">
-  <meta property="og:description" content=""><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:description" content="Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.
+ Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm."><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-03-18T23:05:47&#43;01:00">
@@ -370,7 +372,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    0 min read
+    2 min read
   </span>
   
 
@@ -464,34 +466,79 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <!---
+      
 
-## Introduction 
+<h2 id="introduction">Introduction</h2>
 
-- Describe the problem
+<p>At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the
+application of logging movements of a football player during game or training
+sessions.</p>
 
-## Our Solution
+<ul>
+<li>Low price of the sensor hardware for a low entry-barrier, such allowing to be
+eligible for the mass-market and tight budgets. Th</li>
+<li>Provide data quickly, robustly and at low cloud infrastructure operation costs</li>
+<li>Accurate results</li>
+</ul>
 
-- Insipration blog posts
+<p>This meant we had to develop algorithms that are cost intensive, batch style
+sensor fusion, with high memory, optimization based algorithm. No filtering
+but smoothing.</p>
 
-### Architecture overview
+<p>While (1) and (2) required</p>
 
-- Sketch of TRACKTICS architecture
+<p>Given the constraint that our hardware was meant to bring that the
+idea behind TRACKTICS is to bring sophisticated data analytics to the mass
+market, which means that a main constraint was to build hard&hellip;
+the only
+viable solution was to deploy these algorithms in the cloud.</p>
 
-### Workflow Management
+<p>and
+that As using those prohibite. In addition to that, we provide our user. This meant that</p>
 
-- Luigi vs. Airflow vs. 
-- Directed Acyclic Graphs
+<p>This system is acommpanyed by several Mobile and Desktop apps.</p>
 
-### Container Orchestration
+<h2 id="our-solution">Our Solution</h2>
 
-- ECS vs Kubernetes vs Fargate
+<p>In the recent years, there have been a, all converging to a surprisingly similar configuration</p>
 
-### Continuous Integration
+<ul>
+<li><p>An cloud-native object storage soltuion like Aamazons S3 (Simple Storage
+Solution) acting as a data lake, essentially used like a cloud-native
+equivalent to a file system</p></li>
 
-- Testing approach
-- 
--->
+<li><p>Docker for dependency management, allowing for a clearer separation of domains
+between application development and deployment/operation.</p></li>
+
+<li><p>A container</p></li>
+</ul>
+
+<p>Docker lends itself, as an ideal technology that allows</p>
+
+<h3 id="architecture-overview">Architecture overview</h3>
+
+<ul>
+<li>Sketch of TRACKTICS architecture</li>
+</ul>
+
+<h3 id="workflow-management">Workflow Management</h3>
+
+<ul>
+<li>Luigi vs. Airflow vs.</li>
+<li>Directed Acyclic Graphs</li>
+</ul>
+
+<h3 id="container-orchestration">Container Orchestration</h3>
+
+<ul>
+<li>ECS vs Kubernetes vs Fargate</li>
+</ul>
+
+<h3 id="continuous-integration">Continuous Integration</h3>
+
+<p>Continuous delivery &hellip; versioning approach&hellip; we use</p>
+
+<h2 id="testing-approach">- Testing approach</h2>
 
     </div>
 

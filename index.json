@@ -7,7 +7,7 @@
       "TRACKTICS",
       "Data Engineering"
     ],
-    "content": "",
+    "content": " Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.\n Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm. No filtering but smoothing.\nWhile (1) and (2) required\nGiven the constraint that our hardware was meant to bring that the idea behind TRACKTICS is to bring sophisticated data analytics to the mass market, which means that a main constraint was to build hard\u0026hellip; the only viable solution was to deploy these algorithms in the cloud.\nand that As using those prohibite. In addition to that, we provide our user. This meant that\nThis system is acommpanyed by several Mobile and Desktop apps.\nOur Solution In the recent years, there have been a, all converging to a surprisingly similar configuration\n An cloud-native object storage soltuion like Aamazons S3 (Simple Storage Solution) acting as a data lake, essentially used like a cloud-native equivalent to a file system\n Docker for dependency management, allowing for a clearer separation of domains between application development and deployment/operation.\n A container\n  Docker lends itself, as an ideal technology that allows\nArchitecture overview  Sketch of TRACKTICS architecture  Workflow Management  Luigi vs. Airflow vs. Directed Acyclic Graphs  Container Orchestration  ECS vs Kubernetes vs Fargate  Continuous Integration Continuous delivery \u0026hellip; versioning approach\u0026hellip; we use\n- Testing approach ",
     "date": 1552946747,
     "expirydate": -62135596800,
     "kind": "page",
@@ -18,7 +18,7 @@
     "publishdate": "2019-03-18T23:05:47+01:00",
     "relpermalink": "/post/tracktics-data-pipeline/",
     "section": "post",
-    "summary": "",
+    "summary": "Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.\n Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm.",
     "tags": [
       "Data",
       "Docker",
