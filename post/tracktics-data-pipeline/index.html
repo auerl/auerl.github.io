@@ -15,8 +15,8 @@
   
     
   
-  <meta name="description" content="Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.
- Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm.">
+  <meta name="description" content="Introduction At TRACKTICS we try to bring sophisticated tactical analytics and performance stats (have so far been reserved to elite clubs and players) to the lower leagues, by developing a GNSS-IMU based tracking solution that fits the tight budgets of an average amatuer football player or coach, but is yet accurate enough to provide valuable insights for injury prevention and training control.
+One of the key ideas that we put forward when trying to meet the aforementioned requirements was to repurpose methods from the field of sensor fusion, commonly used in fields like autonomous driving or robotics, for the use case of football data enrichment, thus accounting for potential shortcomings in raw data quality caused by inexpensive hardware components and allowing our system to achieve state-of-the art accuracy akin to that of much more expensive systems.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/tracktics-data-pipeline/">
@@ -108,9 +108,9 @@
   
   <meta property="og:site_name" content="https://auerl.github.io">
   <meta property="og:url" content="/post/tracktics-data-pipeline/">
-  <meta property="og:title" content="Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3 | https://auerl.github.io">
-  <meta property="og:description" content="Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.
- Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm."><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:title" content="Building a scalable GNSS-IMU sensor fusion pipeline using Docker, Luigi, ECS and S3 | https://auerl.github.io">
+  <meta property="og:description" content="Introduction At TRACKTICS we try to bring sophisticated tactical analytics and performance stats (have so far been reserved to elite clubs and players) to the lower leagues, by developing a GNSS-IMU based tracking solution that fits the tight budgets of an average amatuer football player or coach, but is yet accurate enough to provide valuable insights for injury prevention and training control.
+One of the key ideas that we put forward when trying to meet the aforementioned requirements was to repurpose methods from the field of sensor fusion, commonly used in fields like autonomous driving or robotics, for the use case of football data enrichment, thus accounting for potential shortcomings in raw data quality caused by inexpensive hardware components and allowing our system to achieve state-of-the art accuracy akin to that of much more expensive systems."><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-03-18T23:05:47&#43;01:00">
@@ -122,7 +122,7 @@
 
   
 
-  <title>Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3 | https://auerl.github.io</title>
+  <title>Building a scalable GNSS-IMU sensor fusion pipeline using Docker, Luigi, ECS and S3 | https://auerl.github.io</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -338,7 +338,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3</h1>
+  <h1 itemprop="name">Building a scalable GNSS-IMU sensor fusion pipeline using Docker, Luigi, ECS and S3</h1>
 
   
 
@@ -372,7 +372,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    7 min read
   </span>
   
 
@@ -400,7 +400,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Building%20a%20scalable%20batch%20processing%20pipeline%20for%20sensor%20fusion%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3&amp;url=%2fpost%2ftracktics-data-pipeline%2f"
+         href="https://twitter.com/intent/tweet?text=Building%20a%20scalable%20GNSS-IMU%20sensor%20fusion%20pipeline%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3&amp;url=%2fpost%2ftracktics-data-pipeline%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -414,21 +414,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2ftracktics-data-pipeline%2f&amp;title=Building%20a%20scalable%20batch%20processing%20pipeline%20for%20sensor%20fusion%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2ftracktics-data-pipeline%2f&amp;title=Building%20a%20scalable%20GNSS-IMU%20sensor%20fusion%20pipeline%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2ftracktics-data-pipeline%2f&amp;title=Building%20a%20scalable%20batch%20processing%20pipeline%20for%20sensor%20fusion%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2ftracktics-data-pipeline%2f&amp;title=Building%20a%20scalable%20GNSS-IMU%20sensor%20fusion%20pipeline%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Building%20a%20scalable%20batch%20processing%20pipeline%20for%20sensor%20fusion%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3&amp;body=%2fpost%2ftracktics-data-pipeline%2f">
+         href="mailto:?subject=Building%20a%20scalable%20GNSS-IMU%20sensor%20fusion%20pipeline%20using%20Docker%2c%20Luigi%2c%20ECS%20and%20S3&amp;body=%2fpost%2ftracktics-data-pipeline%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -470,75 +470,268 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the
-application of logging movements of a football player during game or training
-sessions.</p>
+<p>At TRACKTICS we try to bring sophisticated tactical analytics and performance
+stats (have so far been reserved to elite clubs and players) to the lower
+leagues, by developing a GNSS-IMU based tracking solution that fits the tight
+budgets of an average amatuer football player or coach, but is  yet accurate
+enough to provide valuable insights for injury prevention and training control.</p>
+
+<p>One of the key ideas that we put forward when trying to meet the aforementioned
+requirements was to repurpose methods from the field of sensor fusion, commonly
+used in fields like autonomous driving or robotics, for the use case of football
+data enrichment, thus accounting for potential shortcomings in raw data quality
+caused by inexpensive hardware components and allowing our system to achieve
+state-of-the art accuracy akin to that of much more expensive systems.</p>
+
+<p>In the following article I am summarizing TRACKTICS&rsquo; (or more accurately, its
+tech team) journey towards achieving this goal. While the focus of this article is on
+on our highly-available and fault tolerant data analysis pipeline (&ldquo;pipeline&rdquo;
+in the following)</p>
+
+<h2 id="system-overview">System overview</h2>
+
+<p>Before going into detail about the &ldquo;pipeline&rdquo; I would like to go one step
+backwards, and start with delineating the most important business requirements
+driving the work of TRACKTICS Tech-team. Most importantly, the target system
+architecture was meant to &hellip;</p>
 
 <ul>
-<li>Low price of the sensor hardware for a low entry-barrier, such allowing to be
-eligible for the mass-market and tight budgets. Th</li>
-<li>Provide data quickly, robustly and at low cloud infrastructure operation costs</li>
-<li>Accurate results</li>
+<li><p>provide high-quality estimation result, superior to what can be achieved
+by off-the-shelf fitness TRACKERS and comparable to that of professional
+GPS-based football tracking solutions by Catapult or GPSports.</p></li>
+
+<li><p>be optimized for a strong user experience, through exciting Apps, and a
+strong emphasis on wearing comfort - in particular we wanted to get rid of
+the widely despised &ldquo;Sports-Bras&rdquo; which are used by practically any competitor
+system.</p></li>
+
+<li><p>be affordable to the average youth and amateuer player or semi-professional,
+and ambitioned Coaches from European 4th leagues and downwards.</p></li>
+
+<li><p>allow for rapid scaling to tens and hundreds of thousand users.</p></li>
 </ul>
 
-<p>This meant we had to develop algorithms that are cost intensive, batch style
-sensor fusion, with high memory, optimization based algorithm. No filtering
-but smoothing.</p>
+<p>Before I joined TRACKTICS Tech team in 2016, TRACKTICS had already developed
+a powerful GNSS-IMU based sensor hardware tailored for the for the logging of
+movements of a football player during game or training sessions a first version
+of a Web App that allowed one to visualize basic metrics inferred using an Extended
+Kalman Filter (executed in an offline manner) to combine the GNSS IMU and
+Compass readings from the tracker. The architecture of the system is
+visualized in the picture below:</p>
 
-<p>While (1) and (2) required</p>
+<p><img src="system.png" width=800></p>
 
-<p>Given the constraint that our hardware was meant to bring that the
-idea behind TRACKTICS is to bring sophisticated data analytics to the mass
-market, which means that a main constraint was to build hard&hellip;
-the only
-viable solution was to deploy these algorithms in the cloud.</p>
+<h2 id="slam-for-football-analytics">SLAM for football analytics</h2>
 
-<p>and
-that As using those prohibite. In addition to that, we provide our user. This meant that</p>
+<p>To improve upon the estimation results that could be achieved with our first
+prototype algorithm, we teamed up with sensor fusion experts from
+<a href="http://www.knowtion.de/" target="_blank">Knowtion</a> to develop a new and more powerful
+estimation approach based on the the <a href="https://bitbucket.org/gtborg/gtsam/" target="_blank">GTSAM
+library</a> - a toolkit commonly used
+for SLAM (Similtaneous Localization and Mapping) applications and other
+types of robotics and vision. GTSAM is implemented in C++, uses Factor Graphs
+and Bayes Networks as its underlying compute paradigm and provides a modern
+IMU preintegration scheme and convenient Python bindings for rapid prototyping.</p>
 
-<p>This system is acommpanyed by several Mobile and Desktop apps.</p>
+<p><img src="factorgraph.png" width=600></p>
 
-<h2 id="our-solution">Our Solution</h2>
+<p>In the initial stages of designing our algorithm we were faced with the question
+whether to go for near real-time online estimation, which is supported by
+GTSAM&rsquo;s iSAM2 module, which &hellip; in small increments. Yet, since initial
+experiments showed slightly better estimation results for the more conventional
+batch processing approach, that allows to better account for the estimation of
+global parameters (such as the local magnetic field at the recording location or
+hardware-related corrections such IMU and magnetometer biases and scaling
+factors). Thus, in light of our premisse to ensure as high quality estimation
+results as possible&hellip;</p>
 
-<p>In the recent years, there have been a, all converging to a surprisingly similar configuration</p>
+<p>Our sensor fusion algorithms are compute intensive Therefore the task at hand
+doesn&rsquo;t clearly fit, but since our sensor fusion algorithm involves. Online vs.</p>
 
 <ul>
-<li><p>An cloud-native object storage soltuion like Aamazons S3 (Simple Storage
-Solution) acting as a data lake, essentially used like a cloud-native
-equivalent to a file system</p></li>
+<li><p>Relatively generous latency requirements of a few minutes. Users can see the
+estimation results after 3-5 minutes. As our user journey involves a few steps
+where the user is asked to input meta information about their data (e.g. adding
+geographic coordinates of the football pitch or events) the perceived waiting
+time could be reduced.</p></li>
 
-<li><p>Docker for dependency management, allowing for a clearer separation of domains
-between application development and deployment/operation.</p></li>
-
-<li><p>A container</p></li>
+<li><p>As our sensor hardware has relatively narrow price and dimension constraints
+and regulatory reasons (the current regulations on sensory hardware that may
+be applied during &hellip; games, put forward by FIFA, real-time capabilities that
+would allow the) TRACKTICS opted for an approach where data analysis is entirely
+performed in the cloud.</p></li>
 </ul>
 
-<p>Docker lends itself, as an ideal technology that allows</p>
+<h2 id="deploying-to-aws">Deploying to AWS</h2>
 
-<h3 id="architecture-overview">Architecture overview</h3>
+<!---
+>DESCRIBE THAT WE HAD TO COME UP WITH SOME WAY TO DO
+>WRITE A LITTLE BIT ABOUT BATCH PROCESSING VS STREAM PROCESSING
+-->
+
+<p>In the recent years, there has been converging to a surprisingly similar
+configuration, based on the following building blocks:</p>
 
 <ul>
-<li>Sketch of TRACKTICS architecture</li>
+<li><p>An object storage solution like Amazons S3 (Simple Storage Solution) which is
+used like a cloud-native equivalent to a computers file system.</p></li>
+
+<li><p>Docker for dependency management, that allows for a clearer separation of
+domains between application development and deployment/operation of the
+batch processing workflow.</p></li>
+
+<li><p>A container orchestrator (like Kubernetes or Amazon EC2 Container Service)
+combined with an Auto-Scaling solution (with a custom scaling logic) taking
+care of resource management</p></li>
+
+<li><p>A resilient messaging system (like Amazons Simple Queuing System
+or Apache Kafka) as a fault-tolerant way to handle our job queue.</p></li>
+
+<li><p>A REST API as a communication link between our batch processing pipeline and
+the various client apps that allow our user to view their data.</p></li>
 </ul>
 
-<h3 id="workflow-management">Workflow Management</h3>
+<p><img src="pipeline.png" width=800></p>
 
-<ul>
-<li>Luigi vs. Airflow vs.</li>
-<li>Directed Acyclic Graphs</li>
-</ul>
+<!---
+>DESCRIPTION OF LUIGI VS AIRFLOW VS ...
+>DIRECTED ACYCLIC GRAPHS
+>CONTAINER ORCHESTRATION (ECS, FARGATE, SOME WORDS ON KUBERNETES AND WHY WE DONT USE IT)
+>EC2 INSTANCE CONFIGURATION (C4 INSTANCES)
+>THE COSTS PER SESSION 
+>SCALING APPROACH, SPOT INSTANCES
+Docker lends itself, as an ideal technology that allows... We use the new c4.xlarge instances
 
-<h3 id="container-orchestration">Container Orchestration</h3>
 
-<ul>
-<li>ECS vs Kubernetes vs Fargate</li>
-</ul>
 
-<h3 id="continuous-integration">Continuous Integration</h3>
+## Performance considerations
 
-<p>Continuous delivery &hellip; versioning approach&hellip; we use</p>
+>WE IMPLEMENTED PROTOTYPE VERSIONS OF OUR ALGORITHMS IN C++ AND
+>WE TRANSLATED A KALMAN SMOOTHER FROM PYTHON TO C++ ARMADILLO
+>WE TRANSLATED OUR IMU PREPROCESSOR USING CYTHON
+-->
 
-<h2 id="testing-approach">- Testing approach</h2>
+<h2 id="ci-cd-and-testing-strategy">CI/CD and Testing Strategy</h2>
+
+<p>To ensure swift rollout of new features and bug fixes, we use. Jenkins is Full
+continuous integration and delivery approach using Jenkins. Beyond usual unit
+tests Parameter changes or even more profound algorithmic updates to our
+estimation algorithm. The only way to test such changes with. Important is to
+not overoptimize for a particular groundtruth dataset, but to find a good
+balance between groundtruth fit for different datasets. Our grundtruth data
+includes a plethora of data from real game data, to jogging sessions where we
+have determined true distances, to high-precicion estimates of GNSS positions
+and velocities, acquired with an expensive RTK GNSS receiver, to light barrier
+data.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I will also touch upon some other aspects, like our
+groundtruth based evaluation approaches and our growing from a few early
+adopters after our product launch in 2017 to by now over 10000 active users
+all over Germany, Switzerland and Austria, thus becoming the market leader in the DACH region.</p>
+
+<!---
+
+>VERSION CONTROL WORKFLOW (ONEFLOW)
+>VERSIONING APPROACH
+>SCREENSHOT OF JUPYTER NOTEBOOK EVALUATION
+
+
+## Future Work
+
+- Machine-learning based metrics: Our
+- Platform agnosticity: While our data analytics platform is closely intervoven 
+  with various services (e.g. AWS Lambda, S3, ECS, SQS). Yet, in light of future 
+  migration to different. This would require us to adopt, maybe on top of the 
+  OpenStack datacenter operating system, and make our approach suitable for more 
+  applications. Especially. - Towards stream processing. iSAM2, that however 
+  requires to re-evaluate our algorithms. We have global parameters like the 
+  earths magnetic field or sensor biases.
+- Moving compute to the edge. At least parts of the processing pipeline could be 
+  moved to the edge.
+- Hot and cold storage of final results.
+- More efficient storage formats.
+- Spot instances
+
+-->
+
+<!---
+
+>DESCRIBE THE FACTOR GRAPH ALGORITHM AND PREPROCESSING
+>DESCRIBE OFFLINE VS ONLINE ESTIMATION
+>ADD FACTOR GRAPH SKETCH
+>SIMPLE IMU KITTI EXAMPLE FACTOR GRAPH
+
+-->
+
+<!---
+>WE TEAMED UP WITH SENSOR FUSION EXPERTS FROM KNOWTION
+-->
+
+<!-- I will also touch upon some other aspects, like our  -->
+
+<!-- groundtruth based evaluation approaches and our growing from a few early  -->
+
+<!-- adopters after our product launch in 2017 to by now over 10000 active users  -->
+
+<!-- all over Germany, Switzerland and Austria, thus becoming the market leader in the DACH region. -->
+
+<!-- developing techniques to build up a database of  -->
+
+<!-- groundtruth and associated evaluation and testing approaches, and finally,  -->
+
+<!-- setting up a highly-available and fault tolerant data analysis pipeline  -->
+
+<!-- ("pipeline" in the following) - interestingly enough,  -->
+
+<!-- not to speak of growing from a few early adopters after our product launch in 2017 to by  -->
+
+<!-- now over 10000 active users all over Germany, Switzerland and Austria, thus  -->
+
+<!-- becoming the market leader in the DACH region. -->
+
+<!-- Before I joined TRACKTICS Tech team in 2016, TRACKTICS had already developed  -->
+
+<!-- a powerful GNSS-IMU based sensor hardware tailored for the for the logging of  -->
+
+<!-- movements of a football player during game or training sessions, a first version  -->
+
+<!-- of a Web App that allowed one to visualize basic metrics inferred using an Extended  -->
+
+<!-- Kalman Filter (executed in an offline manner) to combine the GNSS IMU and -->
+
+<!-- Compass readings from the tracker. Yet, the estimation results of this early  -->
+
+<!-- incarnation of the system was not sufficient in terms of estimation quality and  -->
+
+<!-- there existed significant "blind-spots" as to how accurate the system was -->
+
+<!-- operating overall, due to a still rather basic testing and evaluation framework.  -->
+
+<!-- To solve this challenge we embarked on a very interesting journey of months of  -->
+
+<!-- optimizing our algorithms, developing techniques to build up a database of  -->
+
+<!-- groundtruth and associated evaluation and testing approaches, and finally,  -->
+
+<!-- setting up a highly-available and fault tolerant data analysis pipeline  -->
+
+<!-- ("pipeline" in the following) - interestingly enough, not to speak of  -->
+
+<!-- growing from a few early adopters after our product launch in 2017 to by  -->
+
+<!-- now over 10000 active users all over Germany, Switzerland and Austria, thus  -->
+
+<!-- becoming the market leader in the DACH region. -->
+
+<!-- Yet, the estimation results of this early -->
+
+<!-- incarnation of the system was not sufficient in terms of estimation quality and  -->
+
+<!-- there existed significant "blind-spots" as to how accurate the system was -->
+
+<!-- operating overall, due to a still rather basic testing and evaluation framework.  -->
 
     </div>
 
@@ -580,7 +773,7 @@ between application development and deployment/operation.</p></li>
   
   <div class="media-body">
     <h5 class="card-title" itemprop="name"><a href="/">Ludwig Auer</a></h5>
-    <h6 class="card-subtitle">Research Scientist</h6>
+    <h6 class="card-subtitle">Computational Scientist</h6>
     
     <ul class="network-icon" aria-hidden="true">
       

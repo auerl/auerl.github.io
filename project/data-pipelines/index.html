@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis to for logging. On a service level our toolbox features a universal Python wrapper that allows to expose the functionality of each service to ECS and the workflow manager, in a consistent way.">
+  <meta name="description" content="The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom service for auto scaling, S3 and Postgres (Amazon RDS) to store results and Kinesis for logging.">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/data-pipelines/">
@@ -107,7 +107,7 @@
   <meta property="og:site_name" content="https://auerl.github.io">
   <meta property="og:url" content="/project/data-pipelines/">
   <meta property="og:title" content="Data analysis pipeline | https://auerl.github.io">
-  <meta property="og:description" content="The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis to for logging. On a service level our toolbox features a universal Python wrapper that allows to expose the functionality of each service to ECS and the workflow manager, in a consistent way."><meta property="og:image" content="/project/data-pipelines/featured.png">
+  <meta property="og:description" content="The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom service for auto scaling, S3 and Postgres (Amazon RDS) to store results and Kinesis for logging."><meta property="og:image" content="/project/data-pipelines/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-12-28T11:27:00&#43;01:00">
@@ -560,10 +560,12 @@
 artifact deployment, ECS (Amazon EC2 Container Service) for container
 orchestration and resource discovery, Luigi (by Spotify) for workflow and
 dependency management, SQS (Amazon Simple Queuing System) as a job queue, a
-custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis
-to for logging. On a service level our toolbox features a universal Python
-wrapper that allows to expose the functionality of each service to ECS and
-the workflow manager, in a consistent way.</p>
+custom service for auto scaling, S3 and Postgres (Amazon RDS) to store
+results and Kinesis for logging. On a service level our toolbox features a
+universal Python wrapper that allows to expose the functionality of each
+service to ECS and the workflow manager, in a consistent way. I have written
+a <a href="http://auerl.github.io/post/tracktics-data-pipeline/" target="_blank">blog post</a> post
+about how we developed our pipeline.</p>
 
     </div>
 
@@ -603,7 +605,7 @@ the workflow manager, in a consistent way.</p>
   
   <div class="media-body">
     <h5 class="card-title" itemprop="name"><a href="/">Ludwig Auer</a></h5>
-    <h6 class="card-subtitle">Research Scientist</h6>
+    <h6 class="card-subtitle">Computational Scientist</h6>
     
     <ul class="network-icon" aria-hidden="true">
       

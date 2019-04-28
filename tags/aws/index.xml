@@ -18,7 +18,7 @@
       <pubDate>Fri, 28 Dec 2018 11:27:00 +0100</pubDate>
       
       <guid>/project/data-pipelines/</guid>
-      <description>The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis to for logging. On a service level our toolbox features a universal Python wrapper that allows to expose the functionality of each service to ECS and the workflow manager, in a consistent way.</description>
+      <description>The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom service for auto scaling, S3 and Postgres (Amazon RDS) to store results and Kinesis for logging.</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
   
     
   
-  <meta name="description" content="Research Scientist">
+  <meta name="description" content="Computational Scientist">
 
   
   <link rel="alternate" hreflang="en-us" href="/tags/docker/">
@@ -110,7 +110,7 @@
   <meta property="og:site_name" content="https://auerl.github.io">
   <meta property="og:url" content="/tags/docker/">
   <meta property="og:title" content="Docker | https://auerl.github.io">
-  <meta property="og:description" content="Research Scientist"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:description" content="Computational Scientist"><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2019-03-18T23:05:47&#43;01:00">
@@ -351,11 +351,11 @@
   
   
   <div>
-    <h2><a href="/post/tracktics-data-pipeline/">Building a scalable batch processing pipeline for sensor fusion using Docker, Luigi, ECS and S3</a></h2>
+    <h2><a href="/post/tracktics-data-pipeline/">Building a scalable GNSS-IMU sensor fusion pipeline using Docker, Luigi, ECS and S3</a></h2>
     <div class="article-style">
       
-      Introduction At TRACKTICS we developed a GNSS/IMU based sensor hardwardware tailored for the application of logging movements of a football player during game or training sessions.
- Low price of the sensor hardware for a low entry-barrier, such allowing to be eligible for the mass-market and tight budgets. Th Provide data quickly, robustly and at low cloud infrastructure operation costs Accurate results  This meant we had to develop algorithms that are cost intensive, batch style sensor fusion, with high memory, optimization based algorithm.
+      Introduction At TRACKTICS we try to bring sophisticated tactical analytics and performance stats (have so far been reserved to elite clubs and players) to the lower leagues, by developing a GNSS-IMU based tracking solution that fits the tight budgets of an average amatuer football player or coach, but is yet accurate enough to provide valuable insights for injury prevention and training control.
+One of the key ideas that we put forward when trying to meet the aforementioned requirements was to repurpose methods from the field of sensor fusion, commonly used in fields like autonomous driving or robotics, for the use case of football data enrichment, thus accounting for potential shortcomings in raw data quality caused by inexpensive hardware components and allowing our system to achieve state-of-the art accuracy akin to that of much more expensive systems.
       
     </div>
   </div>
@@ -364,7 +364,7 @@
     <h2><a href="/project/data-pipelines/">Data analysis pipeline</a></h2>
     <div class="article-style">
       
-      The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom autoscaler, S3 and Postgres (Amazon RDS) to store results and Kinesis to for logging. On a service level our toolbox features a universal Python wrapper that allows to expose the functionality of each service to ECS and the workflow manager, in a consistent way.
+      The TRACKTICS Pipeline is a framework that allows to orchestrate parallel DAG (Direct Acyclic Graphs) batch processing jobs. It is based on Docker for artifact deployment, ECS (Amazon EC2 Container Service) for container orchestration and resource discovery, Luigi (by Spotify) for workflow and dependency management, SQS (Amazon Simple Queuing System) as a job queue, a custom service for auto scaling, S3 and Postgres (Amazon RDS) to store results and Kinesis for logging.
       
     </div>
   </div>
