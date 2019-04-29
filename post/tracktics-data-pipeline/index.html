@@ -15,8 +15,8 @@
   
     
   
-  <meta name="description" content="Introduction At TRACKTICS we try to bring sophisticated tactical analytics and performance stats (have so far been reserved to elite clubs and players) to the lower leagues, by developing a GNSS-IMU based tracking solution that fits the tight budgets of an average amatuer football player or coach, but is yet accurate enough to provide valuable insights for injury prevention and training control.
-One of the key ideas that we put forward when trying to meet the aforementioned requirements was to repurpose methods from the field of sensor fusion, commonly used in fields like autonomous driving or robotics, for the use case of football data enrichment, thus accounting for potential shortcomings in raw data quality caused by inexpensive hardware components and allowing our system to achieve state-of-the art accuracy akin to that of much more expensive systems.">
+  <meta name="description" content="At TRACKTICS we aim to bring sophisticated tactical analytics and performance stats (which have so far been reserved to elite clubs and players) to the lower football leagues, by developing a GNSS-IMU based tracking solution that fits the tight budgets of an average amatuer player or coach, but is yet accurate enough to provide valuable insights for injury prevention and training control.
+One of the key ideas that we have put forward in order to achieve this goal was to repurpose methods from the field of sensor fusion, commonly used in fields like autonomous driving or robotics, for the use case of football data enrichment, thus accounting for potential shortcomings in raw data quality caused by inexpensive hardware components and allowing our system to achieve state-of-the art accuracy, akin to that of much more expensive systems.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/tracktics-data-pipeline/">
@@ -109,8 +109,8 @@ One of the key ideas that we put forward when trying to meet the aforementioned 
   <meta property="og:site_name" content="https://auerl.github.io">
   <meta property="og:url" content="/post/tracktics-data-pipeline/">
   <meta property="og:title" content="Building a scalable GNSS-IMU sensor fusion pipeline using Docker, Luigi, ECS and S3 | https://auerl.github.io">
-  <meta property="og:description" content="Introduction At TRACKTICS we try to bring sophisticated tactical analytics and performance stats (have so far been reserved to elite clubs and players) to the lower leagues, by developing a GNSS-IMU based tracking solution that fits the tight budgets of an average amatuer football player or coach, but is yet accurate enough to provide valuable insights for injury prevention and training control.
-One of the key ideas that we put forward when trying to meet the aforementioned requirements was to repurpose methods from the field of sensor fusion, commonly used in fields like autonomous driving or robotics, for the use case of football data enrichment, thus accounting for potential shortcomings in raw data quality caused by inexpensive hardware components and allowing our system to achieve state-of-the art accuracy akin to that of much more expensive systems."><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:description" content="At TRACKTICS we aim to bring sophisticated tactical analytics and performance stats (which have so far been reserved to elite clubs and players) to the lower football leagues, by developing a GNSS-IMU based tracking solution that fits the tight budgets of an average amatuer player or coach, but is yet accurate enough to provide valuable insights for injury prevention and training control.
+One of the key ideas that we have put forward in order to achieve this goal was to repurpose methods from the field of sensor fusion, commonly used in fields like autonomous driving or robotics, for the use case of football data enrichment, thus accounting for potential shortcomings in raw data quality caused by inexpensive hardware components and allowing our system to achieve state-of-the art accuracy, akin to that of much more expensive systems."><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-03-18T23:05:47&#43;01:00">
@@ -372,7 +372,7 @@ One of the key ideas that we put forward when trying to meet the aforementioned 
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    7 min read
+    8 min read
   </span>
   
 
@@ -468,25 +468,26 @@ One of the key ideas that we put forward when trying to meet the aforementioned 
     <div class="article-style" itemprop="articleBody">
       
 
-<h2 id="introduction">Introduction</h2>
-
-<p>At TRACKTICS we try to bring sophisticated tactical analytics and performance
-stats (have so far been reserved to elite clubs and players) to the lower
-leagues, by developing a GNSS-IMU based tracking solution that fits the tight
-budgets of an average amatuer football player or coach, but is  yet accurate
+<p>At TRACKTICS we aim to bring sophisticated tactical analytics and performance
+stats (which have so far been reserved to elite clubs and players) to the lower
+football leagues, by developing a GNSS-IMU based tracking solution that fits
+the tight budgets of an average amatuer player or coach, but is yet accurate
 enough to provide valuable insights for injury prevention and training control.</p>
 
-<p>One of the key ideas that we put forward when trying to meet the aforementioned
-requirements was to repurpose methods from the field of sensor fusion, commonly
-used in fields like autonomous driving or robotics, for the use case of football
-data enrichment, thus accounting for potential shortcomings in raw data quality
-caused by inexpensive hardware components and allowing our system to achieve
-state-of-the art accuracy akin to that of much more expensive systems.</p>
+<p>One of the key ideas that we have put forward in order to achieve this goal was to
+repurpose methods from the field of sensor fusion, commonly used in fields like
+autonomous driving or robotics, for the use case of football data enrichment,
+thus accounting for potential shortcomings in raw data quality caused by
+inexpensive hardware components and allowing our system to achieve state-of-the
+art accuracy, akin to that of much more expensive systems.</p>
+
+<p><img src="data.png" width=800 alt="Luigi's Web UI" /></p>
 
 <p>In the following article I am summarizing TRACKTICS&rsquo; (or more accurately, its
-tech team) journey towards achieving this goal. While the focus of this article is on
-on our highly-available and fault tolerant data analysis pipeline (&ldquo;pipeline&rdquo;
-in the following)</p>
+tech team&rsquo;s) journey towards achieving this goal. While the focus of this
+article is on on our highly-available and fault tolerant data analysis
+pipeline (&ldquo;pipeline&rdquo; in the following) I will also touch upon our core
+sensor fusion algorithm and our &ldquo;continuous evaluation&rdquo; framework.</p>
 
 <h2 id="system-overview">System overview</h2>
 
@@ -516,8 +517,7 @@ a powerful GNSS-IMU based sensor hardware tailored for the for the logging of
 movements of a football player during game or training sessions a first version
 of a Web App that allowed one to visualize basic metrics inferred using an Extended
 Kalman Filter (executed in an offline manner) to combine the GNSS IMU and
-Compass readings from the tracker. The architecture of the system is
-visualized in the picture below:</p>
+Compass readings from the tracker. Yet the</p>
 
 <p><img src="system.png" width=800></p>
 
@@ -562,15 +562,23 @@ would allow the) TRACKTICS opted for an approach where data analysis is entirely
 performed in the cloud.</p></li>
 </ul>
 
-<h2 id="deploying-to-aws">Deploying to AWS</h2>
+<h2 id="stitching-it-together">Stitching it together</h2>
 
 <!---
 >DESCRIBE THAT WE HAD TO COME UP WITH SOME WAY TO DO
 >WRITE A LITTLE BIT ABOUT BATCH PROCESSING VS STREAM PROCESSING
 -->
 
-<p>In the recent years, there has been converging to a surprisingly similar
-configuration, based on the following building blocks:</p>
+<p>As soon as we were happy with the overall performance of our algorithm w.r.t.
+the groundtruth data that we had collected, we were facing the challenge to
+run. In the rrecent years, there have been a number of blog posts (see, for
+example, the interesting
+<a href="http://tech.adroll.com/blog/data/2015/09/22/data-pipelines-docker.html" target="_blank">article</a>
+by Ville Tuulos from AdRoll, which was one of the inspirations for our
+pipeline) describing architectures, that are meant to handle quite similar
+batch processing type workloads as ours. Interestingly, these architectures
+often converge to a surprisingly similar configuration, based on the
+following main building blocks:</p>
 
 <ul>
 <li><p>An object storage solution like Amazons S3 (Simple Storage Solution) which is
@@ -581,9 +589,17 @@ domains between application development and deployment/operation of the
 batch processing workflow.</p></li>
 
 <li><p>A container orchestrator (like Kubernetes or Amazon EC2 Container Service)
-combined with an Auto-Scaling solution (with a custom scaling logic) taking
-care of resource management</p></li>
+combined with some Auto-Scaling solution (with a custom scaling logic) for
+resource management.</p></li>
 
+<li><p>A workflow manager to stich together the workflow (like Spotify&rsquo;s
+<a href="https://github.com/spotify/luigi" target="_blank">Luigi</a> or AirBnB&rsquo;s
+<a href="https://airflow.apache.org/" target="_blank">Airflow</a>)</p></li>
+</ul>
+
+<p>In our case, we also required the following components:</p>
+
+<ul>
 <li><p>A resilient messaging system (like Amazons Simple Queuing System
 or Apache Kafka) as a fault-tolerant way to handle our job queue.</p></li>
 
@@ -592,6 +608,32 @@ the various client apps that allow our user to view their data.</p></li>
 </ul>
 
 <p><img src="pipeline.png" width=800></p>
+
+<p>In such an architecture, each (short-lived) Docker container is responsible for
+running one to a few modules of a batch processing job. For example, in the
+simplemost case there might be one container running our sensor fusion algorithm
+and one container running some module to estimate soccer-related metrics (like
+the number of sprints, etc.). Each container can be seen idempotent function which is applied
+to a immutable piece of input data (a file on S3).</p>
+
+<p>Docker comes in handy as it allows for an easy resource. Docker is mainstream,
+and can be installed within an instance on a developers laptop, this facilitates
+<a href="https://medium.com/machine-words/separation-of-concerns-1d735b703a60" target="_blank">separation of
+concerns</a>
+which, in our case, means that different modules along our pipeline are
+maintained by different people. The fact that building and running a Docker
+container locally is extremely easy, ensures that application developers can
+independently test their builds. If their containers runs locally its guaranteed
+to run in the production environment. As S3 is so cheap to use it is even
+affordable to store intermediate results upon demand, which simplifies detailed
+inspection of the data for troubleshooting.</p>
+
+<p>As a workflow manager we opted for <a href="https://github.com/spotify/luigi" target="_blank">Luigi</a>
+open-sourced by by Spotify in 2015. Spotify doesn&rsquo;t comprise as many features
+compared to the more common alternative Airflow (by AirBnB), but is much more
+lightweight and easier to set up, which was the main reason for our choice.</p>
+
+<p><img src="luigi.png" width=800 alt="Luigi's Web UI" /></p>
 
 <!---
 >DESCRIPTION OF LUIGI VS AIRFLOW VS ...
@@ -604,6 +646,7 @@ Docker lends itself, as an ideal technology that allows... We use the new c4.xla
 
 
 
+
 ## Performance considerations
 
 >WE IMPLEMENTED PROTOTYPE VERSIONS OF OUR ALGORITHMS IN C++ AND
@@ -613,16 +656,21 @@ Docker lends itself, as an ideal technology that allows... We use the new c4.xla
 
 <h2 id="ci-cd-and-testing-strategy">CI/CD and Testing Strategy</h2>
 
-<p>To ensure swift rollout of new features and bug fixes, we use. Jenkins is Full
+<p>To ensure swift rollout of new features and bug fixes, we use. Jenkins is Full ()
 continuous integration and delivery approach using Jenkins. Beyond usual unit
 tests Parameter changes or even more profound algorithmic updates to our
 estimation algorithm. The only way to test such changes with. Important is to
 not overoptimize for a particular groundtruth dataset, but to find a good
-balance between groundtruth fit for different datasets. Our grundtruth data
-includes a plethora of data from real game data, to jogging sessions where we
-have determined true distances, to high-precicion estimates of GNSS positions
-and velocities, acquired with an expensive RTK GNSS receiver, to light barrier
-data.</p>
+balance between groundtruth fit for different datasets.</p>
+
+<p><img src="groundtruth_fit1.png" width=600></p>
+
+<p>Our grundtruth data  includes a plethora of data from real game data, to jogging
+sessions where we have determined true distances, to high-precicion estimates of
+GNSS positions and velocities, acquired with an expensive RTK GNSS receiver, to
+light barrier data.</p>
+
+<p><img src="groundtruth_fit2.png" width=800></p>
 
 <h2 id="conclusion">Conclusion</h2>
 
