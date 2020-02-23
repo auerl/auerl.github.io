@@ -505,9 +505,9 @@ dependency management, SQS (Amazon Simple Queuing System) as a job queue, a
 custom service for auto scaling, S3 and Postgres (Amazon RDS) to store
 results and Kinesis for logging. On a service level our toolbox features a
 universal Python wrapper that allows to expose the functionality of each
-service to ECS and the workflow manager, in a consistent way. I have written
-a &lt;a href=&#34;http://auerl.github.io/post/tracktics-data-pipeline/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; post
-about how we developed our pipeline.&lt;/p&gt;
+service to ECS and the workflow manager, in a consistent way.
+A &lt;a href=&#34;http://auerl.github.io/post/tracktics-data-pipeline/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;
+about how we developed our pipeline is in preparation.&lt;/p&gt;
 </description>
     </item>
     
